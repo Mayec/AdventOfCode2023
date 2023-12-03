@@ -1,0 +1,7979 @@
+Center line empty. Do nothing
+
+====================
+line A: []
+line B: ........954......104.......52......70..............206.806........708..........................217...............................440........
+line C: .......@...................*.............................*.664..............677................@....459.........687.........................
+---
+Number: 954
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 104
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 52
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 70
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 206
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 806
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 708
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 217
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 440
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ........954......104.......52......70..............206.806........708..........................217...............................440........
+line B: .......@...................*.............................*.664..............677................@....459.........687.........................
+line C: ..................378.....398........548..495..........983....*................*..282.................*...........$.248.....409.......165...
+---
+Number: 664
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 677
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 459
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 687
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+
+====================
+line A: .......@...................*.............................*.664..............677................@....459.........687.........................
+line B: ..................378.....398........548..495..........983....*................*..282.................*...........$.248.....409.......165...
+line C: ......261........................704.&.......*................943...615.504.....6....*773..........687..../973.2*.....=.311*....*..../......
+---
+Number: 378
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 398
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 548
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 495
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 983
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 282
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 248
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 409
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 165
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+
+====================
+line A: ..................378.....398........548..495..........983....*................*..282.................*...........$.248.....409.......165...
+line B: ......261........................704.&.......*................943...615.504.....6....*773..........687..../973.2*.....=.311*....*..../......
+line C: 187..-....&...............828....*......*268..488....534.........................................................244.........722.286........
+---
+Number: 261
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 704
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 943
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 615
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 504
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 6
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 773
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 687
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 973
+A symbols: []
+B symbols: ['/']
+C symbols: []
+valid: True
+---
+Number: 2
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 311
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+
+====================
+line A: ......261........................704.&.......*................943...615.504.....6....*773..........687..../973.2*.....=.311*....*..../......
+line B: 187..-....&...............828....*......*268..488....534.........................................................244.........722.286........
+line C: ........663.254.723.@.......*.842....696............../...163.512&.............797.......................749................................
+---
+Number: 187
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 828
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 268
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 488
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 534
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 244
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 722
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 286
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: 187..-....&...............828....*......*268..488....534.........................................................244.........722.286........
+line B: ........663.254.723.@.......*.842....696............../...163.512&.............797.......................749................................
+line C: 230.........*.....*.442...563...............................*.....................*716...................*...395............352..594&.......
+---
+Number: 663
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 254
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 723
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 842
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 696
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 163
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 512
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+---
+Number: 797
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 749
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ........663.254.723.@.......*.842....696............../...163.512&.............797.......................749................................
+line B: 230.........*.....*.442...563...............................*.....................*716...................*...395............352..594&.......
+line C: ...........468.522............................+33........660....&......................................891......-...#.......................
+---
+Number: 230
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 442
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 563
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 716
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 395
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 352
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 594
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+
+====================
+line A: 230.........*.....*.442...563...............................*.....................*716...................*...395............352..594&.......
+line B: ...........468.522............................+33........660....&......................................891......-...#.......................
+line C: ......929...........*261..680............-...........@.........29.312.............972.......................704.....545.56*274......537.....
+---
+Number: 468
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 522
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 33
+A symbols: []
+B symbols: ['+']
+C symbols: []
+valid: True
+---
+Number: 660
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 891
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...........468.522............................+33........660....&......................................891......-...#.......................
+line B: ......929...........*261..680............-...........@.........29.312.............972.......................704.....545.56*274......537.....
+line C: ........*.......................+.#158..311.........987............*................&....923................*...837.............561...%.....
+---
+Number: 929
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 261
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 680
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 29
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 312
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 972
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 704
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 545
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 56
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 274
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 537
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+
+====================
+line A: ......929...........*261..680............-...........@.........29.312.............972.......................704.....545.56*274......537.....
+line B: ........*.......................+.#158..311.........987............*................&....923................*...837.............561...%.....
+line C: ......35....75.....715........382...........855............/440..890.224.....613............*......622./....810....*632.........%...........
+---
+Number: 158
+A symbols: []
+B symbols: ['#']
+C symbols: []
+valid: True
+---
+Number: 311
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 987
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 923
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 837
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 561
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+
+====================
+line A: ........*.......................+.#158..311.........987............*................&....923................*...837.............561...%.....
+line B: ......35....75.....715........382...........855............/440..890.224.....613............*......622./....810....*632.........%...........
+line C: ............*.....%.......286........534.................$............*...........277.....851..14...*...645.............916../.......682....
+---
+Number: 35
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 75
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 715
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 382
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 855
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 440
+A symbols: []
+B symbols: ['/']
+C symbols: []
+valid: True
+---
+Number: 890
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 224
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 613
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 622
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 810
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 632
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+
+====================
+line A: ......35....75.....715........382...........855............/440..890.224.....613............*......622./....810....*632.........%...........
+line B: ............*.....%.......286........534.................$............*...........277.....851..14...*...645.............916../.......682....
+line C: .....189..641.%.........%....*..........$...694.214*......137.......16........26.....+..%........&.675.........511........*..848.184*.....55
+---
+Number: 286
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 534
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 277
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 851
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 14
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 645
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 916
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 682
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ............*.....%.......286........534.................$............*...........277.....851..14...*...645.............916../.......682....
+line B: .....189..641.%.........%....*..........$...694.214*......137.......16........26.....+..%........&.675.........511........*..848.184*.....55
+line C: ..............760......323....167..674.......*.......604@..............-......*.........24.................$......*.....666.................
+---
+Number: 189
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 641
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 694
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 214
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 137
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 16
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 26
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 675
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 511
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 848
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 184
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 55
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: .....189..641.%.........%....*..........$...694.214*......137.......16........26.....+..%........&.675.........511........*..848.184*.....55
+line B: ..............760......323....167..674.......*.......604@..............-......*.........24.................$......*.....666.................
+line C: ....99.....................................*.360.......................805..509../.........284.....&981..827....714.................410.....
+---
+Number: 760
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 323
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 167
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 674
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 604
+A symbols: []
+B symbols: ['@']
+C symbols: []
+valid: True
+---
+Number: 24
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 666
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ..............760......323....167..674.......*.......604@..............-......*.........24.................$......*.....666.................
+line B: ....99.....................................*.360.......................805..509../.........284.....&981..827....714.................410.....
+line C: ...*.................+.601&..10&........202.......753...........................208..925...*..........................652...752.....#.......
+---
+Number: 99
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 360
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 805
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 509
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 284
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 981
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+---
+Number: 827
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 714
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 410
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+
+====================
+line A: ....99.....................................*.360.......................805..509../.........284.....&981..827....714.................410.....
+line B: ...*.................+.601&..10&........202.......753...........................208..925...*..........................652...752.....#.......
+line C: ...411......656...448..............................&......888.749..677...............=...970.................128....-....*..*....@..........
+---
+Number: 601
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+---
+Number: 10
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+---
+Number: 202
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 753
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 208
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 925
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 652
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 752
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ...*.................+.601&..10&........202.......753...........................208..925...*..........................652...752.....#.......
+line B: ...411......656...448..............................&......888.749..677...............=...970.................128....-....*..*....@..........
+line C: .............*.......................236.60...181..........*.....*....-.713.170................@.......839.....*....116.....79.431.=........
+---
+Number: 411
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 656
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 448
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 888
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 749
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 677
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 970
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 128
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ...411......656...448..............................&......888.749..677...............=...970.................128....-....*..*....@..........
+line B: .............*.......................236.60...181..........*.....*....-.713.170................@.......839.....*....116.....79.431.=........
+line C: .689...542..46................483.....*....*...*.....#..289..348.483........*........=...731....376...@.....656.....................924.&...
+---
+Number: 236
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 60
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 181
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 713
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 170
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 839
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 116
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 79
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 431
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .............*.......................236.60...181..........*.....*....-.713.170................@.......839.....*....116.....79.431.=........
+line B: .689...542..46................483.....*....*...*.....#..289..348.483........*........=...731....376...@.....656.....................924.&...
+line C: .........*.............340......&..@..92..314.3...572.........$.......408.177........728....*....................325...929..............852.
+---
+Number: 689
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 542
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 46
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 483
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 289
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 348
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 483
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 731
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 376
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 656
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 924
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .689...542..46................483.....*....*...*.....#..289..348.483........*........=...731....376...@.....656.....................924.&...
+line B: .........*.............340......&..@..92..314.3...572.........$.......408.177........728....*....................325...929..............852.
+line C: ........824....323....*...........157....................126............*.....640...........404...................*......@........430.......
+---
+Number: 340
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 92
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 314
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 3
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 572
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 408
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 177
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 728
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 325
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 929
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 852
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .........*.............340......&..@..92..314.3...572.........$.......408.177........728....*....................325...929..............852.
+line B: ........824....323....*...........157....................126............*.....640...........404...................*......@........430.......
+line C: .649..............*.723.......32............375......480*....537..637.467.....*....=598.............959.......263..136......718...*....#....
+---
+Number: 824
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 323
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 157
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 126
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 640
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 404
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 430
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ........824....323....*...........157....................126............*.....640...........404...................*......@........430.......
+line B: .649..............*.723.......32............375......480*....537..637.467.....*....=598.............959.......263..136......718...*....#....
+line C: ..........931..316...........*...........78*................../..*.........611..........979.@...198....*751...*.........123./......579..733.
+---
+Number: 649
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 723
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 32
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 375
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 480
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 537
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 637
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 467
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 598
+A symbols: []
+B symbols: ['=']
+C symbols: []
+valid: True
+---
+Number: 959
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 263
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 136
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 718
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+
+====================
+line A: .649..............*.723.......32............375......480*....537..637.467.....*....=598.............959.......263..136......718...*....#....
+line B: ..........931..316...........*...........78*................../..*.........611..........979.@...198....*751...*.........123./......579..733.
+line C: .81&.....*..............772.884......809..................435.....940............162*........96...*............145....../......414..........
+---
+Number: 931
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 316
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 78
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 611
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 979
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 198
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 751
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 123
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 579
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 733
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ..........931..316...........*...........78*................../..*.........611..........979.@...198....*751...*.........123./......579..733.
+line B: .81&.....*..............772.884......809..................435.....940............162*........96...*............145....../......414..........
+line C: .......#.511......204....................706*.....442........*........213.............116......................................./...........
+---
+Number: 81
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+---
+Number: 772
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 884
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 809
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 435
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 940
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 162
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 96
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 145
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 414
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+
+====================
+line A: .81&.....*..............772.884......809..................435.....940............162*........96...*............145....../......414..........
+line B: .......#.511......204....................706*.....442........*........213.............116......................................./...........
+line C: 625...60............*..............@.........870.#...........17.......*.......725.....*...........-..696.......114......../.......=.........
+---
+Number: 511
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 204
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 706
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 442
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 213
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 116
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: .......#.511......204....................706*.....442........*........213.............116......................................./...........
+line B: 625...60............*..............@.........870.#...........17.......*.......725.....*...........-..696.......114......../.......=.........
+line C: ............734..................482.................35*974.....%....227........@.....60........382...*.......-..........664....584...472...
+---
+Number: 625
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 60
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 870
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 17
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 725
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 696
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 114
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+
+====================
+line A: 625...60............*..............@.........870.#...........17.......*.......725.....*...........-..696.......114......../.......=.........
+line B: ............734..................482.................35*974.....%....227........@.....60........382...*.......-..........664....584...472...
+line C: 288.....697*............................*614....975.............999.........599..........332..........978..60......./...................*...
+---
+Number: 734
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 482
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 35
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 974
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 227
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 60
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 382
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 664
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 584
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 472
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ............734..................482.................35*974.....%....227........@.....60........382...*.......-..........664....584...472...
+line B: 288.....697*............................*614....975.............999.........599..........332..........978..60......./...................*...
+line C: ...*............701..961..180........998..................211..............$...............*...310..................953.....$..153...861....
+---
+Number: 288
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 697
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 614
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 975
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 999
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 599
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 332
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 978
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 60
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: 288.....697*............................*614....975.............999.........599..........332..........978..60......./...................*...
+line B: ...*............701..961..180........998..................211..............$...............*...310..................953.....$..153...861....
+line C: 356........%344..@....*....*........................267....+...421%........................697....*...........531.........776.....*......193
+---
+Number: 701
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 961
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 180
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 998
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 211
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 310
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 953
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 153
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 861
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...*............701..961..180........998..................211..............$...............*...310..................953.....$..153...861....
+line B: 356........%344..@....*....*........................267....+...421%........................697....*...........531.........776.....*......193
+line C: ........#...........757.925................360.........................261......71.....950.........490....-../........+..........989........
+---
+Number: 356
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 344
+A symbols: []
+B symbols: ['%']
+C symbols: []
+valid: True
+---
+Number: 267
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 421
+A symbols: []
+B symbols: ['%']
+C symbols: []
+valid: True
+---
+Number: 697
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 531
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 776
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 193
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: 356........%344..@....*....*........................267....+...421%........................697....*...........531.........776.....*......193
+line B: ........#...........757.925................360.........................261......71.....950.........490....-../........+..........989........
+line C: 634...385....*70............................*.......%........311...457*.......%........*...640..........687.......=...946...................
+---
+Number: 757
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 925
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 360
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 261
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 71
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 950
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 490
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 989
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ........#...........757.925................360.........................261......71.....950.........490....-../........+..........989........
+line B: 634...385....*70............................*.......%........311...457*.......%........*...640..........687.......=...946...................
+line C: ...*......514....973....100...46..570..21....155.....692.575..../..............977.233........$.................931...........*..240+.......
+---
+Number: 634
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 385
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 70
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 311
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 457
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 640
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 687
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 946
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: 634...385....*70............................*.......%........311...457*.......%........*...640..........687.......=...946...................
+line B: ...*......514....973....100...46..570..21....155.....692.575..../..............977.233........$.................931...........*..240+.......
+line C: 332.............*........*........#....-................./.........944..............*............230.....+...........889.....462.......615..
+---
+Number: 514
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 973
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 100
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 46
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 570
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 21
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 155
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 692
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 575
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 977
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 233
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 931
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 240
+A symbols: []
+B symbols: ['+']
+C symbols: []
+valid: True
+
+====================
+line A: ...*......514....973....100...46..570..21....155.....692.575..../..............977.233........$.................931...........*..240+.......
+line B: 332.............*........*........#....-................./.........944..............*............230.....+...........889.....462.......615..
+line C: .....&..531....77.435.427..437......*....=417.......................%..194.......385.........88-..#...174...................................
+---
+Number: 332
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 944
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 230
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 889
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 462
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 615
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: 332.............*........*........#....-................./.........944..............*............230.....+...........889.....462.......615..
+line B: .....&..531....77.435.427..437......*....=417.......................%..194.......385.........88-..#...174...................................
+line C: ....951.............-............716.261.......................234....*..................&........................................439.......
+---
+Number: 531
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 77
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 435
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 427
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 437
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 417
+A symbols: []
+B symbols: ['=']
+C symbols: []
+valid: True
+---
+Number: 194
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 385
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 88
+A symbols: []
+B symbols: ['-']
+C symbols: []
+valid: True
+---
+Number: 174
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .....&..531....77.435.427..437......*....=417.......................%..194.......385.........88-..#...174...................................
+line B: ....951.............-............716.261.......................234....*..................&........................................439.......
+line C: ................*.........563+............*.............805.....%....681..............393...909..247.$415.............=..+..................
+---
+Number: 951
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 716
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 261
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 234
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 439
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ....951.............-............716.261.......................234....*..................&........................................439.......
+line B: ................*.........563+............*.............805.....%....681..............393...909..247.$415.............=..+..................
+line C: ..954.644...-...35...%425........890....857.......%.521..+..438...............437..............@...@.........563.....133..696...............
+---
+Number: 563
+A symbols: []
+B symbols: ['+']
+C symbols: []
+valid: True
+---
+Number: 805
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 681
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 393
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 909
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 247
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 415
+A symbols: []
+B symbols: ['$']
+C symbols: []
+valid: True
+
+====================
+line A: ................*.........563+............*.............805.....%....681..............393...909..247.$415.............=..+..................
+line B: ..954.644...-...35...%425........890....857.......%.521..+..438...............437..............@...@.........563.....133..696...............
+line C: ...$........887.............&466.*..............547.%.........*...804....118...=..15.......302...............*......................80..%549
+---
+Number: 954
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 644
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 35
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 425
+A symbols: []
+B symbols: ['%']
+C symbols: []
+valid: True
+---
+Number: 890
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 857
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 521
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 438
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 437
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 563
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 133
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 696
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ..954.644...-...35...%425........890....857.......%.521..+..438...............437..............@...@.........563.....133..696...............
+line B: ...$........887.............&466.*..............547.%.........*...804....118...=..15.......302...............*......................80..%549
+line C: ........610......877...990.......368.......................553....*.....*........-............*.....232...282..-...............264....*.....
+---
+Number: 887
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 466
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+---
+Number: 547
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 804
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 118
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 15
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 302
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 80
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 549
+A symbols: []
+B symbols: ['%']
+C symbols: []
+valid: True
+
+====================
+line A: ...$........887.............&466.*..............547.%.........*...804....118...=..15.......302...............*......................80..%549
+line B: ........610......877...990.......368.......................553....*.....*........-............*.....232...282..-...............264....*.....
+line C: 410.....@.......%....*....*793.......946.....67*863.895.........511.....628..............945..764....*.........455...............$.....880..
+---
+Number: 610
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 877
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 990
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 368
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 553
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 232
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 282
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 264
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+
+====================
+line A: ........610......877...990.......368.......................553....*.....*........-............*.....232...282..-...............264....*.....
+line B: 410.....@.......%....*....*793.......946.....67*863.895.........511.....628..............945..764....*.........455...............$.....880..
+line C: ...*.......331....540.540.............*................*192.............................*.........103.......................................
+---
+Number: 410
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 793
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 946
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 67
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 863
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 895
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 511
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 628
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 945
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 764
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 455
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 880
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: 410.....@.......%....*....*793.......946.....67*863.895.........511.....628..............945..764....*.........455...............$.....880..
+line B: ...*.......331....540.540.............*................*192.............................*.........103.......................................
+line C: .311......*..................954......602.766.403...............#.....307..239..417......617..........959...416.........&521................
+---
+Number: 331
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 540
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 540
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 192
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 103
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...*.......331....540.540.............*................*192.............................*.........103.......................................
+line B: .311......*..................954......602.766.403...............#.....307..239..417......617..........959...416.........&521................
+line C: .....-..51.....732.......-...=.....$.........*......695........131....*...*.....................494@..*......*...............+...983........
+---
+Number: 311
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 954
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 602
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 766
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 403
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 307
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 239
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 417
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 617
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 959
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 416
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 521
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+
+====================
+line A: .311......*..................954......602.766.403...............#.....307..239..417......617..........959...416.........&521................
+line B: .....-..51.....732.......-...=.....$.........*......695........131....*...*.....................494@..*......*...............+...983........
+line C: ...284.....337....+......541.......345..........306.........%........111..677........679.............738..#...537............523...%..338...
+---
+Number: 51
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 732
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 695
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 131
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 494
+A symbols: []
+B symbols: ['@']
+C symbols: []
+valid: True
+---
+Number: 983
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+
+====================
+line A: .....-..51.....732.......-...=.....$.........*......695........131....*...*.....................494@..*......*...............+...983........
+line B: ...284.....337....+......541.......345..........306.........%........111..677........679.............738..#...537............523...%..338...
+line C: .......770...............................415.......*.........32...............@..................420.....32............................-....
+---
+Number: 284
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 337
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 541
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 345
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 306
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 111
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 677
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 679
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 738
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 537
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 523
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 338
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+
+====================
+line A: ...284.....337....+......541.......345..........306.........%........111..677........679.............738..#...537............523...%..338...
+line B: .......770...............................415.......*.........32...............@..................420.....32............................-....
+line C: ........+...........781.....................&.......459.............649*213....36..493.621..........*.......7..458*103.......921...491......
+---
+Number: 770
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 415
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 32
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 420
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 32
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .......770...............................415.......*.........32...............@..................420.....32............................-....
+line B: ........+...........781.....................&.......459.............649*213....36..493.621..........*.......7..458*103.......921...491......
+line C: ............921.....*.........373$..............*..................................*...*.......114.473.......*.......................*......
+---
+Number: 781
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 459
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 649
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 213
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 36
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 493
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 621
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 7
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 458
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 103
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 921
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 491
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ........+...........781.....................&.......459.............649*213....36..493.621..........*.......7..458*103.......921...491......
+line B: ............921.....*.........373$..............*..................................*...*.......114.473.......*.......................*......
+line C: .....*........=.473....+..38.........120.......294................+519.............899........*...........263...606/.545..............828...
+---
+Number: 921
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 373
+A symbols: []
+B symbols: ['$']
+C symbols: []
+valid: True
+---
+Number: 114
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 473
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ............921.....*.........373$..............*..................................*...*.......114.473.......*.......................*......
+line B: .....*........=.473....+..38.........120.......294................+519.............899........*...........263...606/.545..............828...
+line C: ..993.............$..76....*.........%.....302.........886+.513............................193...*....................@...........592.......
+---
+Number: 473
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 38
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 120
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 294
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 519
+A symbols: []
+B symbols: ['+']
+C symbols: []
+valid: True
+---
+Number: 899
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 263
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 606
+A symbols: []
+B symbols: ['/']
+C symbols: []
+valid: True
+---
+Number: 545
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 828
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .....*........=.473....+..38.........120.......294................+519.............899........*...........263...606/.545..............828...
+line B: ..993.............$..76....*.........%.....302.........886+.513............................193...*....................@...........592.......
+line C: .......783..............872....533......%..+....................../.............................425...387........%.......958........*..6....
+---
+Number: 993
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 76
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 302
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 886
+A symbols: []
+B symbols: ['+']
+C symbols: []
+valid: True
+---
+Number: 513
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 193
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 592
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ..993.............$..76....*.........%.....302.........886+.513............................193...*....................@...........592.......
+line B: .......783..............872....533......%..+....................../.............................425...387........%.......958........*..6....
+line C: ........*..440*155..588...........*...894.....*56...339............78.@493.............261.101..........*......340...*.....*....+.....*.....
+---
+Number: 783
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 872
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 533
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 425
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 387
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 958
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 6
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: .......783..............872....533......%..+....................../.............................425...387........%.......958........*..6....
+line B: ........*..440*155..588...........*...894.....*56...339............78.@493.............261.101..........*......340...*.....*....+.....*.....
+line C: .......423.........*........771..902.......167.........*...665.988.........606.....30.....*..........469..=.........745.610..542.......679..
+---
+Number: 440
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 155
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 588
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 894
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 56
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 339
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 78
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 493
+A symbols: []
+B symbols: ['@']
+C symbols: []
+valid: True
+---
+Number: 261
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 101
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 340
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ........*..440*155..588...........*...894.....*56...339............78.@493.............261.101..........*......340...*.....*....+.....*.....
+line B: .......423.........*........771..902.......167.........*...665.988.........606.....30.....*..........469..=.........745.610..542.......679..
+line C: ...................611.....*........................553....*......*252........=....*...$.....665...........102..............................
+---
+Number: 423
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 771
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 902
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 167
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 665
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 988
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 606
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 30
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 469
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 745
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 610
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 542
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 679
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .......423.........*........771..902.......167.........*...665.988.........606.....30.....*..........469..=.........745.610..542.......679..
+line B: ...................611.....*........................553....*......*252........=....*...$.....665...........102..............................
+line C: ....333...103.409.......583.............................688..92.........-........415....615.....*519............805.493.......297...........
+---
+Number: 611
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 553
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 252
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 665
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 102
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...................611.....*........................553....*......*252........=....*...$.....665...........102..............................
+line B: ....333...103.409.......583.............................688..92.........-........415....615.....*519............805.493.......297...........
+line C: 751*.........*...............926............899.............*........963..420................&...............*.....*.....286.......=495.....
+---
+Number: 333
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 103
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 409
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 583
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 688
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 92
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 415
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 615
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 519
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 805
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 493
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 297
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ....333...103.409.......583.............................688..92.........-........415....615.....*519............805.493.......297...........
+line B: 751*.........*...............926............899.............*........963..420................&...............*.....*.....286.......=495.....
+line C: ..................244.......*.........784.....%..737.......942.962.........-...3..........909.............160.358...........*............832
+---
+Number: 751
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 926
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 899
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 963
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 420
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 286
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 495
+A symbols: []
+B symbols: ['=']
+C symbols: []
+valid: True
+
+====================
+line A: 751*.........*...............926............899.............*........963..420................&...............*.....*.....286.......=495.....
+line B: ..................244.......*.........784.....%..737.......942.962.........-...3..........909.............160.358...........*............832
+line C: ........600.830....*..779....988......%.....*......*....................%..........$...............262..................335.433..81.....*...
+---
+Number: 244
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 784
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 737
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 942
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 962
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 3
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 909
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 160
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 358
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 832
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ..................244.......*.........784.....%..737.......942.962.........-...3..........909.............160.358...........*............832
+line B: ........600.830....*..779....988......%.....*......*....................%..........$...............262..................335.433..81.....*...
+line C: .151.......*......................$......271.302.34.....150............575.43..425.109...169........@.....@......63..25..+.............849..
+---
+Number: 600
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 830
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 779
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 988
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 262
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 335
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 433
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 81
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ........600.830....*..779....988......%.....*......*....................%..........$...............262..................335.433..81.....*...
+line B: .151.......*......................$......271.302.34.....150............575.43..425.109...169........@.....@......63..25..+.............849..
+line C: ........*........................923..............................$560.....*............*.....167.......639............&....................
+---
+Number: 151
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 271
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 302
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 34
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 150
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 575
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 43
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 425
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 109
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 169
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 63
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 25
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 849
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .151.......*......................$......271.302.34.....150............575.43..425.109...169........@.....@......63..25..+.............849..
+line B: ........*........................923..............................$560.....*............*.....167.......639............&....................
+line C: 573..551.855............201................*482.586.........677.........802..619........83....*.....22........#......................560*...
+---
+Number: 923
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 560
+A symbols: []
+B symbols: ['$']
+C symbols: []
+valid: True
+---
+Number: 167
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 639
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ........*........................923..............................$560.....*............*.....167.......639............&....................
+line B: 573..551.855............201................*482.586.........677.........802..619........83....*.....22........#......................560*...
+line C: ...*..............747..*.......699.....+........*.........*....&..256.........................998..*.....823...993.........&.............662
+---
+Number: 573
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 551
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 855
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 201
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 482
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 586
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 677
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 802
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 619
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 83
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 22
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 560
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+
+====================
+line A: 573..551.855............201................*482.586.........677.........802..619........83....*.....22........#......................560*...
+line B: ...*..............747..*.......699.....+........*.........*....&..256.........................998..*.....823...993.........&.............662
+line C: .164.634#..........*..556.........*...286....437.......483.815.....*.....*................654.....67..................#.....633.8*..........
+---
+Number: 747
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 699
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 256
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 998
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 823
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 993
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 662
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...*..............747..*.......699.....+........*.........*....&..256.........................998..*.....823...993.........&.............662
+line B: .164.634#..........*..556.........*...286....437.......483.815.....*.....*................654.....67..................#.....633.8*..........
+line C: ...........998..855..........67..398.............107...............610.620...........721.-.............946.900.439.283............959.199...
+---
+Number: 164
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 634
+A symbols: []
+B symbols: ['#']
+C symbols: []
+valid: True
+---
+Number: 556
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 286
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 437
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 483
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 815
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 654
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 67
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 633
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 8
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+
+====================
+line A: .164.634#..........*..556.........*...286....437.......483.815.....*.....*................654.....67..................#.....633.8*..........
+line B: ...........998..855..........67..398.............107...............610.620...........721.-.............946.900.439.283............959.199...
+line C: .211*916..*..........&...524*.............436...*.............518...............893.*................*.....*...*...........=..........-.....
+---
+Number: 998
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 855
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 67
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 398
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 107
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 610
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 620
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 721
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 946
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 900
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 439
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 283
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 959
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 199
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+
+====================
+line A: ...........998..855..........67..398.............107...............610.620...........721.-.............946.900.439.283............959.199...
+line B: .211*916..*..........&...524*.............436...*.............518...............893.*................*.....*...*...........=..........-.....
+line C: ..........235..%...473......................*....54..............*.....-......../....551............833..994.81......*640...70....74....*770
+---
+Number: 211
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 916
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 524
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 436
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 518
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 893
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+
+====================
+line A: .211*916..*..........&...524*.............436...*.............518...............893.*................*.....*...*...........=..........-.....
+line B: ..........235..%...473......................*....54..............*.....-......../....551............833..994.81......*640...70....74....*770
+line C: ...$..........950........190..704.380....442.............@264.821...-.918......................427................275.............*..248....
+---
+Number: 235
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 473
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 54
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 551
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 833
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 994
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 81
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 640
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 70
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 74
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 770
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+
+====================
+line A: ..........235..%...473......................*....54..............*.....-......../....551............833..994.81......*640...70....74....*770
+line B: ...$..........950........190..704.380....442.............@264.821...-.918......................427................275.............*..248....
+line C: ....443..................*...........*........738.................484......................691.+.........%949..........749.....658..........
+---
+Number: 950
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 190
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 704
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 380
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 442
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 264
+A symbols: []
+B symbols: ['@']
+C symbols: []
+valid: True
+---
+Number: 821
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 918
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 427
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 275
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 248
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...$..........950........190..704.380....442.............@264.821...-.918......................427................275.............*..248....
+line B: ....443..................*...........*........738.................484......................691.+.........%949..........749.....658..........
+line C: .............678.....180.350........232...........................................934......#........315.........$....../..............+.....
+---
+Number: 443
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 738
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 484
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 691
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 949
+A symbols: []
+B symbols: ['%']
+C symbols: []
+valid: True
+---
+Number: 749
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 658
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ....443..................*...........*........738.................484......................691.+.........%949..........749.....658..........
+line B: .............678.....180.350........232...........................................934......#........315.........$....../..............+.....
+line C: ...833...920....#....*........131..................717...............222.....858..*...........%........*.530....996...........*....109......
+---
+Number: 678
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 180
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 350
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 232
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 934
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 315
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: .............678.....180.350........232...........................................934......#........315.........$....../..............+.....
+line B: ...833...920....#....*........131..................717...............222.....858..*...........%........*.530....996...........*....109......
+line C: ......*.....$.......389.331..@.......................*.................*.*......*..612......168.....672...$..........%.....788.15.......625.
+---
+Number: 833
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 920
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 131
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 717
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 222
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 858
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 530
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 996
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 109
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...833...920....#....*........131..................717...............222.....858..*...........%........*.530....996...........*....109......
+line B: ......*.....$.......389.331..@.......................*.................*.*......*..612......168.....672...$..........%.....788.15.......625.
+line C: ...815..........................40.589...98......./...574........451.403..327..140..............................945...136............64.....
+---
+Number: 389
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 331
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 612
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 168
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 672
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 788
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 15
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 625
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ......*.....$.......389.331..@.......................*.................*.*......*..612......168.....672...$..........%.....788.15.......625.
+line B: ...815..........................40.589...98......./...574........451.403..327..140..............................945...136............64.....
+line C: ..............124..*........49......*..........200.........162....+.....................914..........461......./....%.................=.....
+---
+Number: 815
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 40
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 589
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 98
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 574
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 451
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 403
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 327
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 140
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 945
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 136
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 64
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+
+====================
+line A: ...815..........................40.589...98......./...574........451.403..327..140..............................945...136............64.....
+line B: ..............124..*........49......*..........200.........162....+.....................914..........461......./....%.................=.....
+line C: ..808.......=......363........*......27....397.........107...*.......739+....232....+........68*395.................322..166+...=.......471.
+---
+Number: 124
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 49
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 200
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 162
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 914
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 461
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ..............124..*........49......*..........200.........162....+.....................914..........461......./....%.................=.....
+line B: ..808.......=......363........*......27....397.........107...*.......739+....232....+........68*395.................322..166+...=.......471.
+line C: ...........465..............893..355..........*....70......963................*..133..........................................419.499.......
+---
+Number: 808
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 363
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 27
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 397
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 107
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 739
+A symbols: []
+B symbols: ['+']
+C symbols: []
+valid: True
+---
+Number: 232
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 68
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 395
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 322
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 166
+A symbols: []
+B symbols: ['+']
+C symbols: []
+valid: True
+---
+Number: 471
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ..808.......=......363........*......27....397.........107...*.......739+....232....+........68*395.................322..166+...=.......471.
+line B: ...........465..............893..355..........*....70......963................*..133..........................................419.499.......
+line C: ..................336..62.......*...........798.......*885....../..431.851..176.............=.............583$.....................*........
+---
+Number: 465
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 893
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 355
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 70
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 963
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 133
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 419
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 499
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ...........465..............893..355..........*....70......963................*..133..........................................419.499.......
+line B: ..................336..62.......*...........798.......*885....../..431.851..176.............=.............583$.....................*........
+line C: ........429....../....%...........@.................18..........54...=.*.............245.171.......29.................=936.........657......
+---
+Number: 336
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 62
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 798
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 885
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 431
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 851
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 176
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 583
+A symbols: []
+B symbols: ['$']
+C symbols: []
+valid: True
+
+====================
+line A: ..................336..62.......*...........798.......*885....../..431.851..176.............=.............583$.....................*........
+line B: ........429....../....%...........@.................18..........54...=.*.............245.171.......29.................=936.........657......
+line C: ........*................405.......405.......*689........*994...........328...980......*.....159..*.............256....................-703.
+---
+Number: 429
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 18
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 54
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 245
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 171
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 29
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 936
+A symbols: []
+B symbols: ['=']
+C symbols: []
+valid: True
+---
+Number: 657
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ........429....../....%...........@.................18..........54...=.*.............245.171.......29.................=936.........657......
+line B: ........*................405.......405.......*689........*994...........328...980......*.....159..*.............256....................-703.
+line C: .....444..................*......=........275.........421........479............*....54.........*..324....47.....#....332*855.946...........
+---
+Number: 405
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 405
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 689
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 994
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 328
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 980
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 159
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 256
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 703
+A symbols: []
+B symbols: ['-']
+C symbols: []
+valid: True
+
+====================
+line A: ........*................405.......405.......*689........*994...........328...980......*.....159..*.............256....................-703.
+line B: .....444..................*......=........275.........421........479............*....54.........*..324....47.....#....332*855.946...........
+line C: ..........233....735*325.162....900.............................*................725....@.....453............499...............*............
+---
+Number: 444
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 275
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 421
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 479
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 54
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 324
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 47
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 332
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 855
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 946
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: .....444..................*......=........275.........421........479............*....54.........*..324....47.....#....332*855.946...........
+line B: ..........233....735*325.162....900.............................*................725....@.....453............499...............*............
+line C: ...820....*..............................848..974..82............178...54..............688.....................*...340.810..749.............
+---
+Number: 233
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 735
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 325
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 162
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 900
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 725
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 453
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 499
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ..........233....735*325.162....900.............................*................725....@.....453............499...............*............
+line B: ...820....*..............................848..974..82............178...54..............688.....................*...340.810..749.............
+line C: ....*...234.....187....*967....348......-......*.....*...&148............=..626...*.........589.....501.........82....*.....................
+---
+Number: 820
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 848
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 974
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 82
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 178
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 54
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 688
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 340
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 810
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 749
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...820....*..............................848..974..82............178...54..............688.....................*...340.810..749.............
+line B: ....*...234.....187....*967....348......-......*.....*...&148............=..626...*.........589.....501.........82....*.....................
+line C: .712........$....*..858.......*.................706...49......................+...653.......*.......*.......588..............168.313........
+---
+Number: 234
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 187
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 967
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 348
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 148
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+---
+Number: 626
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 589
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 501
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 82
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ....*...234.....187....*967....348......-......*.....*...&148............=..626...*.........589.....501.........82....*.....................
+line B: .712........$....*..858.......*.................706...49......................+...653.......*.......*.......588..............168.313........
+line C: ..........776...740...........107........612..........................644.................242..................*695......236.#....*....761..
+---
+Number: 712
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 858
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 706
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 49
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 653
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 588
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 168
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 313
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: .712........$....*..858.......*.................706...49......................+...653.......*.......*.......588..............168.313........
+line B: ..........776...740...........107........612..........................644.................242..................*695......236.#....*....761..
+line C: .....767..............995..................*.447*...........130......*...........513..................................#........384....*.....
+---
+Number: 776
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 740
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 107
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 612
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 644
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 242
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 695
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 236
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 761
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ..........776...740...........107........612..........................644.................242..................*695......236.#....*....761..
+line B: .....767..............995..................*.447*...........130......*...........513..................................#........384....*.....
+line C: .......................*..........306............275..............372.....................779.......&....&.....457.....731.............650..
+---
+Number: 767
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 995
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 447
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 130
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 513
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 384
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .....767..............995..................*.447*...........130......*...........513..................................#........384....*.....
+line B: .......................*..........306............275..............372.....................779.......&....&.....457.....731.............650..
+line C: .......................161..........&...213...................726......866................*.......813..398......*..376...........607@.......
+---
+Number: 306
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 275
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 372
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 779
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 457
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 731
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 650
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .......................*..........306............275..............372.....................779.......&....&.....457.....731.............650..
+line B: .......................161..........&...213...................726......866................*.......813..398......*..376...........607@.......
+line C: ..93..860....469.905............%..........*494...../215..../.#................@...980....501.................839.*....@....................
+---
+Number: 161
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 213
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 726
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 866
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 813
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 398
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 376
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 607
+A symbols: []
+B symbols: ['@']
+C symbols: []
+valid: True
+
+====================
+line A: .......................161..........&...213...................726......866................*.......813..398......*..376...........607@.......
+line B: ..93..860....469.905............%..........*494...../215..../.#................@...980....501.................839.*....@....................
+line C: ......*...&..&...*....278........286..............$......183................840...*............941........300......578.259.558.....*..389...
+---
+Number: 93
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 860
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 469
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 905
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 494
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 215
+A symbols: []
+B symbols: ['/']
+C symbols: []
+valid: True
+---
+Number: 980
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 501
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 839
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ..93..860....469.905............%..........*494...../215..../.#................@...980....501.................839.*....@....................
+line B: ......*...&..&...*....278........286..............$......183................840...*............941........300......578.259.558.....*..389...
+line C: ....804..669.....392...................422........743.........323..425..........774.........@....*.229.........*............*...711.8.*.....
+---
+Number: 278
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 286
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 183
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 840
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 941
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 300
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 578
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 259
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 558
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 389
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ......*...&..&...*....278........286..............$......183................840...*............941........300......578.259.558.....*..389...
+line B: ....804..669.....392...................422........743.........323..425..........774.........@....*.229.........*............*...711.8.*.....
+line C: ........................559.523..6.673.................292+..#......./....871=...........638....97..*.........629............28........975..
+---
+Number: 804
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 669
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 392
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 422
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 743
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 323
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 425
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 774
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 229
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 711
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 8
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ....804..669.....392...................422........743.........323..425..........774.........@....*.229.........*............*...711.8.*.....
+line B: ........................559.523..6.673.................292+..#......./....871=...........638....97..*.........629............28........975..
+line C: ..................*283...*...*........*........................*................./.@287..............124...............258.2................
+---
+Number: 559
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 523
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 6
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 673
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 292
+A symbols: []
+B symbols: ['+']
+C symbols: []
+valid: True
+---
+Number: 871
+A symbols: []
+B symbols: ['=']
+C symbols: []
+valid: True
+---
+Number: 638
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 97
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 629
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 28
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 975
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ........................559.523..6.673.................292+..#......./....871=...........638....97..*.........629............28........975..
+line B: ..................*283...*...*........*........................*................./.@287..............124...............258.2................
+line C: ...*80.........545.....991....765.....595...361.......785...111.582...#........890......388.....*209......964...+.....+............475......
+---
+Number: 283
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 287
+A symbols: []
+B symbols: ['@']
+C symbols: []
+valid: True
+---
+Number: 124
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 258
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 2
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ..................*283...*...*........*........................*................./.@287..............124...............258.2................
+line B: ...*80.........545.....991....765.....595...361.......785...111.582...#........890......388.....*209......964...+.....+............475......
+line C: 971....666.................................*...........%.............500...653........@....*.391..........+....882..................*.......
+---
+Number: 80
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 545
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 991
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 765
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 595
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 361
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 785
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 111
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 582
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 890
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 388
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 209
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 964
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 475
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ...*80.........545.....991....765.....595...361.......785...111.582...#........890......388.....*209......964...+.....+............475......
+line B: 971....666.................................*...........%.............500...653........@....*.391..........+....882..................*.......
+line C: ........*....-........................115...725.238*.....626...............*...-...987..680......342*.....................540........409....
+---
+Number: 971
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 666
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 500
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 653
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 391
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 882
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: 971....666.................................*...........%.............500...653........@....*.391..........+....882..................*.......
+line B: ........*....-........................115...725.238*.....626...............*...-...987..680......342*.....................540........409....
+line C: .153*....925.439....#..........752.....*............634..*...500&..177....47....73...................74.................+..*................
+---
+Number: 115
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 725
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 238
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 626
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 987
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 680
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 342
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 540
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 409
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ........*....-........................115...725.238*.....626...............*...-...987..680......342*.....................540........409....
+line B: .153*....925.439....#..........752.....*............634..*...500&..177....47....73...................74.................+..*................
+line C: .................844...........*....305.................425..........-..................445*566.........652...........732.14..581..219......
+---
+Number: 153
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 925
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 439
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 752
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 634
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 500
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+---
+Number: 177
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 47
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 73
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 74
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .153*....925.439....#..........752.....*............634..*...500&..177....47....73...................74.................+..*................
+line B: .................844...........*....305.................425..........-..................445*566.........652...........732.14..581..219......
+line C: .....794..482=.................163........624.....206.............................223..................*....%158..121........&......*.......
+---
+Number: 844
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 305
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 425
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 445
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 566
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 652
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 732
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 14
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 581
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 219
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: .................844...........*....305.................425..........-..................445*566.........652...........732.14..581..219......
+line B: .....794..482=.................163........624.....206.............................223..................*....%158..121........&......*.......
+line C: .......*.......&..687...732...............%......*......47...........$.............+.....+..........323...........*...27/...........738.....
+---
+Number: 794
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 482
+A symbols: []
+B symbols: ['=']
+C symbols: []
+valid: True
+---
+Number: 163
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 624
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 206
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 223
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 158
+A symbols: []
+B symbols: ['%']
+C symbols: []
+valid: True
+---
+Number: 121
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: .....794..482=.................163........624.....206.............................223..................*....%158..121........&......*.......
+line B: .......*.......&..687...732...............%......*......47...........$.............+.....+..........323...........*...27/...........738.....
+line C: .......591....313..*...../.......763..858......67.......*......550..812...$............375....334................193........................
+---
+Number: 687
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 732
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 47
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 323
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 27
+A symbols: []
+B symbols: ['/']
+C symbols: []
+valid: True
+---
+Number: 738
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .......*.......&..687...732...............%......*......47...........$.............+.....+..........323...........*...27/...........738.....
+line B: .......591....313..*...../.......763..858......67.......*......550..812...$............375....334................193........................
+line C: ..860............................./................47...934.....*..........749....7..............*..830...938..............795..........#...
+---
+Number: 591
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 313
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 763
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 858
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 67
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 550
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 812
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 375
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 334
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 193
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .......591....313..*...../.......763..858......67.......*......550..812...$............375....334................193........................
+line B: ..860............................./................47...934.....*..........749....7..............*..830...938..............795..........#...
+line C: ...*..67...............678&..........791...........*..@......622....$..808.............$.......452./......*......................539..580...
+---
+Number: 860
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 47
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 934
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 749
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 7
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 830
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 938
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 795
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ..860............................./................47...934.....*..........749....7..............*..830...938..............795..........#...
+line B: ...*..67...............678&..........791...........*..@......622....$..808.............$.......452./......*......................539..580...
+line C: ..320...*223........................%...........232..171.714.......139...*..............909............606.........=......272...............
+---
+Number: 67
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 678
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+---
+Number: 791
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 622
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 808
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 452
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 539
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 580
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...*..67...............678&..........791...........*..@......622....$..808.............$.......452./......*......................539..580...
+line B: ..320...*223........................%...........232..171.714.......139...*..............909............606.........=......272...............
+line C: ..............................88.........445..............*.....$........717.......+7.............450............874......*.................
+---
+Number: 320
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 223
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 232
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 171
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 714
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 139
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 909
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 606
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 272
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ..320...*223........................%...........232..171.714.......139...*..............909............606.........=......272...............
+line B: ..............................88.........445..............*.....$........717.......+7.............450............874......*.................
+line C: ..............%...383......+.............@..............807...668....................................*735.................218...............
+---
+Number: 88
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 445
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 717
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 7
+A symbols: []
+B symbols: ['+']
+C symbols: []
+valid: True
+---
+Number: 450
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 874
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ..............................88.........445..............*.....$........717.......+7.............450............874......*.................
+line B: ..............%...383......+.............@..............807...668....................................*735.................218...............
+line C: ........699..598..$.....851...&...41........651*346...................63..................89...801.........*394................&............
+---
+Number: 383
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 807
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 668
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 735
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 218
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ..............%...383......+.............@..............807...668....................................*735.................218...............
+line B: ........699..598..$.....851...&...41........651*346...................63..................89...801.........*394................&............
+line C: .......*....................25.....$...........................*965............771.............*.......741.............$......229.@707......
+---
+Number: 699
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 598
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 851
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 41
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 651
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 346
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 63
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 89
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 801
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 394
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+
+====================
+line A: ........699..598..$.....851...&...41........651*346...................63..................89...801.........*394................&............
+line B: .......*....................25.....$...........................*965............771.............*.......741.............$......229.@707......
+line C: ........20.853....100..438...........606..............916....20................*...........75..388.....*.....840..104.859...................
+---
+Number: 25
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 965
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 771
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 741
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 229
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 707
+A symbols: []
+B symbols: ['@']
+C symbols: []
+valid: True
+
+====================
+line A: .......*....................25.....$...........................*965............771.............*.......741.............$......229.@707......
+line B: ........20.853....100..438...........606..............916....20................*...........75..388.....*.....840..104.859...................
+line C: .............*...#.........&........%............%.....................105$....317...........@.......349..../.....&...........239..104...873
+---
+Number: 20
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 853
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 100
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 438
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 606
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 916
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 20
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 75
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 388
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 840
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 104
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 859
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ........20.853....100..438...........606..............916....20................*...........75..388.....*.....840..104.859...................
+line B: .............*...#.........&........%............%.....................105$....317...........@.......349..../.....&...........239..104...873
+line C: ..751......715...........72..345$................881......328.38*......................465......541.................=.........&.....*.......
+---
+Number: 105
+A symbols: []
+B symbols: ['$']
+C symbols: []
+valid: True
+---
+Number: 317
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 349
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 239
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 104
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 873
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: .............*...#.........&........%............%.....................105$....317...........@.......349..../.....&...........239..104...873
+line B: ..751......715...........72..345$................881......328.38*......................465......541.................=.........&.....*.......
+line C: ....*..............................422...............208....*.............................*549..*....313.430.....892.................274....
+---
+Number: 751
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 715
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 72
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 345
+A symbols: []
+B symbols: ['$']
+C symbols: []
+valid: True
+---
+Number: 881
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 328
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 38
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 465
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 541
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ..751......715...........72..345$................881......328.38*......................465......541.................=.........&.....*.......
+line B: ....*..............................422...............208....*.............................*549..*....313.430.....892.................274....
+line C: ..88...-.....28....440.........305*...................*...789.@...../222.......898.............571....=..*............183....856............
+---
+Number: 422
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 208
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 549
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 313
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 430
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 892
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 274
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ....*..............................422...............208....*.............................*549..*....313.430.....892.................274....
+line B: ..88...-.....28....440.........305*...................*...789.@...../222.......898.............571....=..*............183....856............
+line C: .....105............./..................578*........14........37..................*.......................981..........*.....*..............
+---
+Number: 88
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 28
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 440
+A symbols: []
+B symbols: []
+C symbols: ['/']
+valid: True
+---
+Number: 305
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 789
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 222
+A symbols: []
+B symbols: ['/']
+C symbols: []
+valid: True
+---
+Number: 898
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 571
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 183
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 856
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ..88...-.....28....440.........305*...................*...789.@...../222.......898.............571....=..*............183....856............
+line B: .....105............./..................578*........14........37..................*.......................981..........*.....*..............
+line C: .........754..............+...561..646......637...................................544..707...97.................363..231...848.........410..
+---
+Number: 105
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 578
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 14
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 37
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 981
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .....105............./..................578*........14........37..................*.......................981..........*.....*..............
+line B: .........754..............+...561..646......637...................................544..707...97.................363..231...848.........410..
+line C: ........*........270.727.789..$.......*334......787*...979..............422@..120.....*.....#...........98............................*.....
+---
+Number: 754
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 561
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 646
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 637
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 544
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 707
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 97
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 363
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 231
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 848
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 410
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: .........754..............+...561..646......637...................................544..707...97.................363..231...848.........410..
+line B: ........*........270.727.789..$.......*334......787*...979..............422@..120.....*.....#...........98............................*.....
+line C: .......107.989......*.....................................*612...512..........*.......515..........460.@...476......463.....730....703......
+---
+Number: 270
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 727
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 789
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 334
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 787
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 979
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 422
+A symbols: []
+B symbols: ['@']
+C symbols: []
+valid: True
+---
+Number: 120
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 98
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+
+====================
+line A: ........*........270.727.789..$.......*334......787*...979..............422@..120.....*.....#...........98............................*.....
+line B: .......107.989......*.....................................*612...512..........*.......515..........460.@...476......463.....730....703......
+line C: ...........................132....146............................+........83*..849...................*.....&....669*...........*............
+---
+Number: 107
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 989
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 612
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 512
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 515
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 460
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 476
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 463
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 730
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 703
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .......107.989......*.....................................*612...512..........*.......515..........460.@...476......463.....730....703......
+line B: ...........................132....146............................+........83*..849...................*.....&....669*...........*............
+line C: 320*......$206.........491*......*.....171..919..........486.........966$..........230......25.......126..............906....234............
+---
+Number: 132
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 146
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 83
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 849
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 669
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+
+====================
+line A: ...........................132....146............................+........83*..849...................*.....&....669*...........*............
+line B: 320*......$206.........491*......*.....171..919..........486.........966$..........230......25.......126..............906....234............
+line C: ....690........%...............223.................156...*....*678.........................@....234.......=...350.....*............596...36.
+---
+Number: 320
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 206
+A symbols: []
+B symbols: ['$']
+C symbols: []
+valid: True
+---
+Number: 491
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 171
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 919
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 486
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 966
+A symbols: []
+B symbols: ['$']
+C symbols: []
+valid: True
+---
+Number: 230
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 25
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 126
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 906
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 234
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: 320*......$206.........491*......*.....171..919..........486.........966$..........230......25.......126..............906....234............
+line B: ....690........%...............223.................156...*....*678.........................@....234.......=...350.....*............596...36.
+line C: ................717..511*...............322..108......*...280...........12......#......615........*.....755...*......682..904...........&...
+---
+Number: 690
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 223
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 156
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 678
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 234
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 350
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 596
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 36
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+
+====================
+line A: ....690........%...............223.................156...*....*678.........................@....234.......=...350.....*............596...36.
+line B: ................717..511*...............322..108......*...280...........12......#......615........*.....755...*......682..904...........&...
+line C: ....#....................345......%406....*.....%.....169..........858...*...763.............%181.274.......74....$........*..998...........
+---
+Number: 717
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 511
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 322
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 108
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 280
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 12
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 615
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 755
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 682
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 904
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ................717..511*...............322..108......*...280...........12......#......615........*.....755...*......682..904...........&...
+line B: ....#....................345......%406....*.....%.....169..........858...*...763.............%181.274.......74....$........*..998...........
+line C: ..167....230...................%........341.......................%.....827........................................814..374...........922...
+---
+Number: 345
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 406
+A symbols: []
+B symbols: ['%']
+C symbols: []
+valid: True
+---
+Number: 169
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 858
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 763
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 181
+A symbols: []
+B symbols: ['%']
+C symbols: []
+valid: True
+---
+Number: 274
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 74
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 998
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ....#....................345......%406....*.....%.....169..........858...*...763.............%181.274.......74....$........*..998...........
+line B: ..167....230...................%........341.......................%.....827........................................814..374...........922...
+line C: ..................471........73..................852........272................717.....@617...100.....@.....................................
+---
+Number: 167
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 230
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 341
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 827
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 814
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 374
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 922
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ..167....230...................%........341.......................%.....827........................................814..374...........922...
+line B: ..................471........73..................852........272................717.....@617...100.....@.....................................
+line C: ...................=..................*.....769...#..........*.....545.863........$............@....791....403.....298........402*763..536..
+---
+Number: 471
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 73
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 852
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 272
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 717
+A symbols: []
+B symbols: []
+C symbols: ['$']
+valid: True
+---
+Number: 617
+A symbols: []
+B symbols: ['@']
+C symbols: []
+valid: True
+---
+Number: 100
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+
+====================
+line A: ..................471........73..................852........272................717.....@617...100.....@.....................................
+line B: ...................=..................*.....769...#..........*.....545.863........$............@....791....403.....298........402*763..536..
+line C: ......................*............963.693.+............%..621............-...........579......................132*....................*....
+---
+Number: 769
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 545
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 863
+A symbols: []
+B symbols: []
+C symbols: ['-']
+valid: True
+---
+Number: 791
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 403
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 298
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 402
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 763
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 536
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ...................=..................*.....769...#..........*.....545.863........$............@....791....403.....298........402*763..536..
+line B: ......................*............963.693.+............%..621............-...........579......................132*....................*....
+line C: .535.......675.....975.314.284*..................=....49.......$.............454..211............316......................989...@.....600...
+---
+Number: 963
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 693
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 621
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 579
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 132
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+
+====================
+line A: ......................*............963.693.+............%..621............-...........579......................132*....................*....
+line B: .535.......675.....975.314.284*..................=....49.......$.............454..211............316......................989...@.....600...
+line C: ............*..................528..........&...793...........700...................*.....770......*.........-....321.....*......277........
+---
+Number: 535
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 675
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 975
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 314
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 284
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 49
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 454
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 211
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 316
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 989
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 600
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .535.......675.....975.314.284*..................=....49.......$.............454..211............316......................989...@.....600...
+line B: ............*..................528..........&...793...........700...................*.....770......*.........-....321.....*......277........
+line C: ...391..291..625..........................703.....................972@...797........24.92....*......822.900...703....*212.558...............
+---
+Number: 528
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 793
+A symbols: ['=']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 700
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 770
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 321
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 277
+A symbols: ['@']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ............*..................528..........&...793...........700...................*.....770......*.........-....321.....*......277........
+line B: ...391..291..625..........................703.....................972@...797........24.92....*......822.900...703....*212.558...............
+line C: ....*..=...................160.165..........................#.............+..4..........*.262.............*......................+..........
+---
+Number: 391
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 291
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 625
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 703
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 972
+A symbols: []
+B symbols: ['@']
+C symbols: []
+valid: True
+---
+Number: 797
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 24
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 92
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 822
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 900
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 703
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 212
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 558
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...391..291..625..........................703.....................972@...797........24.92....*......822.900...703....*212.558...............
+line B: ....*..=...................160.165..........................#.............+..4..........*.262.............*......................+..........
+line C: ...837........736-..........+.....*...217-.347....446....785.....897..546....&...555.898.......382......75...48......../.....655..586.......
+---
+Number: 160
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 165
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 4
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 262
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ....*..=...................160.165..........................#.............+..4..........*.262.............*......................+..........
+line B: ...837........736-..........+.....*...217-.347....446....785.....897..546....&...555.898.......382......75...48......../.....655..586.......
+line C: .......................503......678.........%..........................*..........................=............*..235..321...=..............
+---
+Number: 837
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 736
+A symbols: []
+B symbols: ['-']
+C symbols: []
+valid: True
+---
+Number: 217
+A symbols: []
+B symbols: ['-']
+C symbols: []
+valid: True
+---
+Number: 347
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 446
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 785
+A symbols: ['#']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 897
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 546
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 555
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 898
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 382
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 75
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 48
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 655
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 586
+A symbols: ['+']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: ...837........736-..........+.....*...217-.347....446....785.....897..546....&...555.898.......382......75...48......../.....655..586.......
+line B: .......................503......678.........%..........................*..........................=............*..235..321...=..............
+line C: ........536../....204....+.............807....................*833.677.480...322=.939...............587.....575..*.............546..........
+---
+Number: 503
+A symbols: []
+B symbols: []
+C symbols: ['+']
+valid: True
+---
+Number: 678
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 235
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 321
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .......................503......678.........%..........................*..........................=............*..235..321...=..............
+line B: ........536../....204....+.............807....................*833.677.480...322=.939...............587.....575..*.............546..........
+line C: ........=...974.....@...........$........%.......672.......317......@................&....789.-....&.....$......268..................780....
+---
+Number: 536
+A symbols: []
+B symbols: []
+C symbols: ['=']
+valid: True
+---
+Number: 204
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 807
+A symbols: []
+B symbols: []
+C symbols: ['%']
+valid: True
+---
+Number: 833
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 677
+A symbols: []
+B symbols: []
+C symbols: ['@']
+valid: True
+---
+Number: 480
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 322
+A symbols: []
+B symbols: ['=']
+C symbols: []
+valid: True
+---
+Number: 939
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 587
+A symbols: []
+B symbols: []
+C symbols: ['&']
+valid: True
+---
+Number: 575
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 546
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ........536../....204....+.............807....................*833.677.480...322=.939...............587.....575..*.............546..........
+line B: ........=...974.....@...........$........%.......672.......317......@................&....789.-....&.....$......268..................780....
+line C: .................*.....276...248..............87*...............................757........*..815.....129............*......................
+---
+Number: 974
+A symbols: ['/']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 672
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 317
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 789
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 268
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 780
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ........=...974.....@...........$........%.......672.......317......@................&....789.-....&.....$......268..................780....
+line B: .................*.....276...248..............87*...............................757........*..815.....129............*......................
+line C: ...*....776......951..*............*157.................254......&...628........*........104......................941.563................871
+---
+Number: 276
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 248
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 87
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 757
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 815
+A symbols: ['-']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 129
+A symbols: ['$']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .................*.....276...248..............87*...............................757........*..815.....129............*......................
+line B: ...*....776......951..*............*157.................254......&...628........*........104......................941.563................871
+line C: ....586...............88........283..........100.986.......*...142...*.......567...............783................................663.......
+---
+Number: 776
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 951
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 157
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 254
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 628
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 104
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 941
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 563
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 871
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+
+====================
+line A: ...*....776......951..*............*157.................254......&...628........*........104......................941.563................871
+line B: ....586...............88........283..........100.986.......*...142...*.......567...............783................................663.......
+line C: .........641..........................213....*...*........468........127..........%.............*....202.........340*.............*.........
+---
+Number: 586
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 88
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 283
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 100
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 986
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 142
+A symbols: ['&']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 567
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 783
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 663
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+
+====================
+line A: ....586...............88........283..........100.986.......*...142...*.......567...............783................................663.......
+line B: .........641..........................213....*...*........468........127..........%.............*....202.........340*.............*.........
+line C: .367......#......274............445..*......96.232..............175.............403.726...642..561......*............790.........433........
+---
+Number: 641
+A symbols: []
+B symbols: []
+C symbols: ['#']
+valid: True
+---
+Number: 213
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 468
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 127
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 202
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 340
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+
+====================
+line A: .........641..........................213....*...*........468........127..........%.............*....202.........340*.............*.........
+line B: .367......#......274............445..*......96.232..............175.............403.726...642..561......*............790.........433........
+line C: ....*.......241..*...498.........*...64............698*357......*...#4.....*..........*.....*..........210...961&...........................
+---
+Number: 367
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 274
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 445
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 96
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 232
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 175
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 403
+A symbols: ['%']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 726
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 642
+A symbols: []
+B symbols: []
+C symbols: ['*']
+valid: True
+---
+Number: 561
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 790
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 433
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+
+====================
+line A: .367......#......274............445..*......96.232..............175.............403.726...642..561......*............790.........433........
+line B: ....*.......241..*...498.........*...64............698*357......*...#4.....*..........*.....*..........210...961&...........................
+line C: ...152...........236.............95............................517......789.836.....236..194......................................202....720
+---
+Number: 241
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 498
+A symbols: []
+B symbols: []
+C symbols: []
+valid: False
+---
+Number: 64
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 698
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 357
+A symbols: []
+B symbols: ['*']
+C symbols: []
+valid: True
+---
+Number: 4
+A symbols: []
+B symbols: ['#']
+C symbols: []
+valid: True
+---
+Number: 210
+A symbols: ['*']
+B symbols: []
+C symbols: []
+valid: True
+---
+Number: 961
+A symbols: []
+B symbols: ['&']
+C symbols: []
+valid: True
+
+====================
+line A: ....*.......241..*...498.........*...64............698*357......*...#4.....*..........*.....*..........210...961&...........................
+line B: ...152...........236.............95............................517......789.836.....236..194......................................202....720
+line C: []
+---
+Number: 152
+A symbols: ['*']
+B symbols: []
+valid: True
+---
+Number: 236
+A symbols: ['*']
+B symbols: []
+valid: True
+---
+Number: 95
+A symbols: ['*']
+B symbols: []
+valid: True
+---
+Number: 517
+A symbols: ['*']
+B symbols: []
+valid: True
+---
+Number: 789
+A symbols: ['*']
+B symbols: []
+valid: True
+---
+Number: 836
+A symbols: ['*']
+B symbols: []
+valid: True
+---
+Number: 236
+A symbols: ['*']
+B symbols: []
+valid: True
+---
+Number: 194
+A symbols: ['*']
+B symbols: []
+valid: True
+---
+Number: 202
+A symbols: []
+B symbols: []
+valid: False
+---
+Number: 720
+A symbols: []
+B symbols: []
+valid: False
+535235
