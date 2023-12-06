@@ -78,7 +78,7 @@ def main():
 		
 	total += validNumbers (ltop, lcen, lbot)
 
-	print(total);
+	print(total)
 
 main()
 # Result: 535235

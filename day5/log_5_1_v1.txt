@@ -1,0 +1,80 @@
+----
+Seed number: 222541566
+Location: 2858847378
+Lowest location: 2858847378
+----
+Seed number: 218404460
+Location: 2854710272
+Lowest location: 2854710272
+----
+Seed number: 670428364
+Location: 1429102861
+Lowest location: 1429102861
+----
+Seed number: 432472902
+Location: 449528487
+Lowest location: 449528487
+----
+Seed number: 2728902838
+Location: 1897502919
+Lowest location: 449528487
+----
+Seed number: 12147727
+Location: 379811651
+Lowest location: 379811651
+----
+Seed number: 3962570697
+Location: 857586243
+Lowest location: 379811651
+----
+Seed number: 52031641
+Location: 1626287473
+Lowest location: 379811651
+----
+Seed number: 2849288350
+Location: 2017888431
+Lowest location: 379811651
+----
+Seed number: 113747257
+Location: 3588068078
+Lowest location: 379811651
+----
+Seed number: 3648852659
+Location: 3112104103
+Lowest location: 379811651
+----
+Seed number: 73423293
+Location: 499526517
+Lowest location: 379811651
+----
+Seed number: 4036058422
+Location: 1099588515
+Lowest location: 379811651
+----
+Seed number: 190602154
+Location: 832477277
+Lowest location: 379811651
+----
+Seed number: 1931540843
+Location: 1520427159
+Lowest location: 379811651
+----
+Seed number: 584314999
+Location: 2830880832
+Lowest location: 379811651
+----
+Seed number: 3344622241
+Location: 1274958752
+Lowest location: 379811651
+----
+Seed number: 180428346
+Location: 880412399
+Lowest location: 379811651
+----
+Seed number: 1301166628
+Location: 1589708674
+Lowest location: 379811651
+----
+Seed number: 310966761
+Location: 2722648709
+Lowest location: 379811651

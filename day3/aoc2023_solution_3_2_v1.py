@@ -109,7 +109,7 @@ def main():
 	total += calcGears(ltop, lcen, lbot)
 
 	print("\n====================")
-	print("Final Total: " + str(total));
+	print("Final Total: " + str(total))
 
 main()
 # Result: 79844424 is too high
