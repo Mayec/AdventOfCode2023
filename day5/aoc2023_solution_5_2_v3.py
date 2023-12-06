@@ -1,4 +1,5 @@
-# This solution is not mine, 95% lifted from a reddit post
+# Unfinished
+# This solution is not mine, WIP of rebuilding a code 95% lifted from a reddit post
 # yet is an elegant way to immplement the main ideas I was trying to hack with my v2
 
 import re

@@ -55,8 +55,8 @@ def main():
 	tstart = time.time()
 	seedcount = 0
 	
-	#for srange in seedRanges: # <----------------PRODUCTION
-	for srange in seedRanges[0:1]: #TEST single
+	for srange in seedRanges: # <----------------PRODUCTION
+	#for srange in seedRanges[0:1]: #TEST single
 	
 		srangeStart = int(srange[0])
 		srangeLength = int(srange[1])	
@@ -66,8 +66,8 @@ def main():
 		timeB = 0
 		timeC = 0
 		
-		#for seednum in range(srangeStart, srangeStart+srangeLength): # <----------------PRODUCTION
-		for seednum in range(srangeStart, srangeStart+10000): #TEST reduced	
+		for seednum in range(srangeStart, srangeStart+srangeLength): # <----------------PRODUCTION
+		#for seednum in range(srangeStart, srangeStart+10000): #TEST reduced	
 			#print('Seed: ' + str(seednum))
 			
 			seedcount += 1
