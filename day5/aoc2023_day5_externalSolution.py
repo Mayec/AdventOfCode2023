@@ -21,3 +21,6 @@ def lookup(inputs, mapping):
 print(*[min(reduce(lookup, mappings, s))[0] for s in [
 	zip(seeds, [1] * len(seeds)),
 	zip(seeds[0::2], seeds[1::2])]])
+	
+# Part 1 result: 379811651 (correct)
+# Part 2 result: 32956608 (wrong!)

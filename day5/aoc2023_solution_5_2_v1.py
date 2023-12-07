@@ -1,4 +1,4 @@
-# This one takes too long. About 15h to finish
+# This one takes too long. About 24h to finish
 
 import re
 import time
@@ -135,4 +135,4 @@ def main():
 		print("time C: " + str(timeC) + " (" + str(100*timeC/timeTotal) + "%)")
 	
 main()
-# Result: 
+# Result: 27992443
