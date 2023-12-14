@@ -70,7 +70,7 @@ def main():
 		#print(spLine)
 		#print(grLine)
 		
-		vcombos = marchcombo( tuple(spLine), tuple(grLine) )
+		vcombos = marchcombo( tuple(spLine), tuple(grLine) ) #tuples are hashable, for cache
 		#print(vcombos)
 		total += vcombos
 		
