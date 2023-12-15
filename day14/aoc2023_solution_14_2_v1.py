@@ -105,7 +105,12 @@ def main():
 		loadHistory.append(load)
 		
 		#detect cycle
-		regex = re.compile(r'(.+ .+)( \1)+')
+		regex = re.compile(r'(.+ .+)( \1)+') 
+		
+		#(.+ .+) will match at least two numbers (as many as possible) and place the result into 
+		# capture group 1. ( \1)+ will match a space followed by the contents of capture group 1, at 
+		# least once.
+		
 		match = regex.search( str(loadHistory) )
 		if match:
 			print('Found cycle')

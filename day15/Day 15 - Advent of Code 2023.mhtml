@@ -1,0 +1,883 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://adventofcode.com/2023/day/15#part2
+Subject: Day 15 - Advent of Code 2023
+Date: Fri, 15 Dec 2023 12:58:01 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Dzgbbsr1dCADwtCT09P250Ovfn8Gy5d6I9nMHIUSqY----"
+
+
+------MultipartBoundary--Dzgbbsr1dCADwtCT09P250Ovfn8Gy5d6I9nMHIUSqY----
+Content-Type: text/html
+Content-ID: <frame-C65253B6528EC6EE4DB2FE997DD0FBF6@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://adventofcode.com/2023/day/15#part2
+
+<!DOCTYPE html><html lang=3D"en-us"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8">
+
+<title>Day 15 - Advent of Code 2023</title>
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://adventofcode.com=
+/static/style.css?31">
+<link rel=3D"stylesheet alternate" type=3D"text/css" href=3D"https://advent=
+ofcode.com/static/highcontrast.css?1" title=3D"High Contrast">
+<link rel=3D"shortcut icon" href=3D"https://adventofcode.com/favicon.png">
+
+</head><!--
+
+
+
+
+Oh, hello!  Funny seeing you here.
+
+I appreciate your enthusiasm, but you aren't going to find much down here.
+There certainly aren't clues to any of the puzzles.  The best surprises don=
+'t
+even appear in the source until you unlock them for real.
+
+Please be careful with automated requests; I'm not a massive company, and I=
+ can
+only take so much traffic.  Please be considerate so that everyone gets to =
+play.
+
+If you're curious about how Advent of Code works, it's running on some cust=
+om
+Perl code. Other than a few integrations (auth, analytics, social media), I
+built the whole thing myself, including the design, animations, prose, and =
+all
+of the puzzles.
+
+The puzzles are most of the work; preparing a new calendar and a new set of
+puzzles each year takes all of my free time for 4-5 months. A lot of effort
+went into building this thing - I hope you're enjoying playing it as much a=
+s I
+enjoyed making it for you!
+
+If you'd like to hang out, I'm @ericwastl@hachyderm.io on Mastodon and
+@ericwastl on Twitter.
+
+- Eric Wastl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+<body>
+<header><div><h1 class=3D"title-global"><a href=3D"https://adventofcode.com=
+/">Advent of Code</a></h1><nav><ul><li><a href=3D"https://adventofcode.com/=
+2023/about">[About]</a></li><li><a href=3D"https://adventofcode.com/2023/ev=
+ents">[Events]</a></li><li><a href=3D"https://teespring.com/stores/advent-o=
+f-code" target=3D"_blank">[Shop]</a></li><li><a href=3D"https://adventofcod=
+e.com/2023/settings">[Settings]</a></li><li><a href=3D"https://adventofcode=
+.com/2023/auth/logout">[Log Out]</a></li></ul></nav><div class=3D"user">May=
+ec Rancel <span class=3D"star-count">29*</span></div></div><div><h1 class=
+=3D"title-event">&nbsp;&nbsp;&nbsp;<span class=3D"title-event-wrap">var y=
+=3D</span><a href=3D"https://adventofcode.com/2023">2023</a><span class=3D"=
+title-event-wrap">;</span></h1><nav><ul><li><a href=3D"https://adventofcode=
+.com/2023">[Calendar]</a></li><li><a href=3D"https://adventofcode.com/2023/=
+support">[AoC++]</a></li><li><a href=3D"https://adventofcode.com/2023/spons=
+ors">[Sponsors]</a></li><li><a href=3D"https://adventofcode.com/2023/leader=
+board">[Leaderboard]</a></li><li><a href=3D"https://adventofcode.com/2023/s=
+tats">[Stats]</a></li></ul></nav></div></header>
+
+<div id=3D"sidebar">
+<div id=3D"sponsor"><div class=3D"quiet">Our <a href=3D"https://adventofcod=
+e.com/2023/sponsors">sponsors</a> help make Advent of Code possible:</div><=
+div class=3D"sponsor"><a href=3D"https://www.accenture.com/us-en/industries=
+/afs-index" target=3D"_blank" rel=3D"noopener">Accenture Federal Services</=
+a> - Technology &amp; ingenuity moving missions forward =E2=80=93 come solv=
+e problems with us. Hiring software engineers, developers, and more now. Re=
+fer someone to earn up to $20K.</div></div>
+</div><!--/sidebar-->
+
+<main>
+<article class=3D"day-desc"><h2>--- Day 15: Lens Library ---</h2><p>The new=
+ly-focused parabolic reflector dish is sending all of the collected light t=
+o a point on the side of yet another mountain - the largest mountain on Lav=
+a Island. As you approach the mountain, you find that the light is being co=
+llected by the wall of a large facility embedded in the mountainside.</p>
+<p>You find a door under a large sign that says "Lava Production Facility" =
+and next to a smaller sign that says "Danger - Personal Protective Equipmen=
+t required beyond this point".</p>
+<p>As you step inside, you are immediately greeted by a somewhat panicked <=
+span title=3D"do you like my hard hat">reindeer</span> wearing goggles and =
+a loose-fitting <a href=3D"https://en.wikipedia.org/wiki/Hard_hat" target=
+=3D"_blank">hard hat</a>. The reindeer leads you to a shelf of goggles and =
+hard hats (you quickly find some that fit) and then further into the facili=
+ty. At one point, you pass a button with a faint snout mark and the label "=
+PUSH FOR HELP". No wonder you were loaded into that <a href=3D"https://adve=
+ntofcode.com/2023/day/1">trebuchet</a> so quickly!</p>
+<p>You pass through a final set of doors surrounded with even more warning =
+signs and into what must be the room that collects all of the light from ou=
+tside. As you admire the large assortment of lenses available to further fo=
+cus the light, the reindeer brings you a book titled "Initialization Manual=
+".</p>
+<p>"Hello!", the book cheerfully begins, apparently unaware of the concerne=
+d reindeer reading over your shoulder. "This procedure will let you bring t=
+he Lava Production Facility online - all without burning or melting anythin=
+g unintended!"</p>
+<p>"Before you begin, please be prepared to use the Holiday ASCII String He=
+lper algorithm (appendix 1A)." You turn to appendix 1A. The reindeer leans =
+closer with interest.</p>
+<p>The HASH algorithm is a way to turn any <a href=3D"https://en.wikipedia.=
+org/wiki/String_(computer_science)" target=3D"_blank">string</a> of charact=
+ers into a single <em>number</em> in the range 0 to 255. To run the HASH al=
+gorithm on a string, start with a <em>current value</em> of <code>0</code>.=
+ Then, for each character in the string starting from the beginning:</p>
+<ul>
+<li>Determine the <a href=3D"https://en.wikipedia.org/wiki/ASCII#Printable_=
+characters" target=3D"_blank">ASCII code</a> for the current character of t=
+he string.</li>
+<li>Increase the <em>current value</em> by the ASCII code you just determin=
+ed.</li>
+<li>Set the <em>current value</em> to itself multiplied by <code>17</code>.=
+</li>
+<li>Set the <em>current value</em> to the <a href=3D"https://en.wikipedia.o=
+rg/wiki/Modulo" target=3D"_blank">remainder</a> of dividing itself by <code=
+>256</code>.</li>
+</ul>
+<p>After following these steps for each character in the string in order, t=
+he <em>current value</em> is the output of the HASH algorithm.</p>
+<p>So, to find the result of running the HASH algorithm on the string <code=
+>HASH</code>:</p>
+<ul>
+<li>The <em>current value</em> starts at <code>0</code>.</li>
+<li>The first character is <code>H</code>; its ASCII code is <code>72</code=
+>.</li>
+<li>The <em>current value</em> increases to <code>72</code>.</li>
+<li>The <em>current value</em> is multiplied by <code>17</code> to become <=
+code>1224</code>.</li>
+<li>The <em>current value</em> becomes <code><em>200</em></code> (the remai=
+nder of <code>1224</code> divided by <code>256</code>).</li>
+<li>The next character is <code>A</code>; its ASCII code is <code>65</code>=
+.</li>
+<li>The <em>current value</em> increases to <code>265</code>.</li>
+<li>The <em>current value</em> is multiplied by <code>17</code> to become <=
+code>4505</code>.</li>
+<li>The <em>current value</em> becomes <code><em>153</em></code> (the remai=
+nder of <code>4505</code> divided by <code>256</code>).</li>
+<li>The next character is <code>S</code>; its ASCII code is <code>83</code>=
+.</li>
+<li>The <em>current value</em> increases to <code>236</code>.</li>
+<li>The <em>current value</em> is multiplied by <code>17</code> to become <=
+code>4012</code>.</li>
+<li>The <em>current value</em> becomes <code><em>172</em></code> (the remai=
+nder of <code>4012</code> divided by <code>256</code>).</li>
+<li>The next character is <code>H</code>; its ASCII code is <code>72</code>=
+.</li>
+<li>The <em>current value</em> increases to <code>244</code>.</li>
+<li>The <em>current value</em> is multiplied by <code>17</code> to become <=
+code>4148</code>.</li>
+<li>The <em>current value</em> becomes <code><em>52</em></code> (the remain=
+der of <code>4148</code> divided by <code>256</code>).</li>
+</ul>
+<p>So, the result of running the HASH algorithm on the string <code>HASH</c=
+ode> is <code><em>52</em></code>.</p>
+<p>The <em>initialization sequence</em> (your puzzle input) is a comma-sepa=
+rated list of steps to start the Lava Production Facility. <em>Ignore newli=
+ne characters</em> when parsing the initialization sequence. To verify that=
+ your HASH algorithm is working, the book offers the sum of the result of r=
+unning the HASH algorithm on each step in the initialization sequence.</p>
+<p>For example:</p>
+<pre><code>rn=3D1,cm-,qp=3D3,cm=3D2,qp-,pc=3D4,ot=3D9,ab=3D5,pc-,pc=3D6,ot=
+=3D7</code></pre>
+<p>This initialization sequence specifies 11 individual steps; the result o=
+f running the HASH algorithm on each of the steps is as follows:</p>
+<ul>
+<li><code>rn=3D1</code> becomes <code><em>30</em></code>.</li>
+<li><code>cm-</code> becomes <code><em>253</em></code>.</li>
+<li><code>qp=3D3</code> becomes <code><em>97</em></code>.</li>
+<li><code>cm=3D2</code> becomes <code><em>47</em></code>.</li>
+<li><code>qp-</code> becomes <code><em>14</em></code>.</li>
+<li><code>pc=3D4</code> becomes <code><em>180</em></code>.</li>
+<li><code>ot=3D9</code> becomes <code><em>9</em></code>.</li>
+<li><code>ab=3D5</code> becomes <code><em>197</em></code>.</li>
+<li><code>pc-</code> becomes <code><em>48</em></code>.</li>
+<li><code>pc=3D6</code> becomes <code><em>214</em></code>.</li>
+<li><code>ot=3D7</code> becomes <code><em>231</em></code>.</li>
+</ul>
+<p>In this example, the sum of these results is <code><em>1320</em></code>.=
+ Unfortunately, the reindeer has stolen the page containing the expected ve=
+rification number and is currently running around the facility with it exci=
+tedly.</p>
+<p>Run the HASH algorithm on each step in the initialization sequence. <em>=
+What is the sum of the results?</em> (The initialization sequence is one lo=
+ng line; be careful when copy-pasting it.)</p>
+</article>
+<p>Your puzzle answer was <code>511343</code>.</p><p class=3D"day-success">=
+The first half of this puzzle is complete! It provides one gold star: *</p>
+<article class=3D"day-desc"><h2 id=3D"part2">--- Part Two ---</h2><p>You co=
+nvince the reindeer to bring you the page; the page confirms that your HASH=
+ algorithm is working.</p>
+<p>The book goes on to describe a series of 256 <em>boxes</em> numbered <co=
+de>0</code> through <code>255</code>. The boxes are arranged in a line star=
+ting from the point where light enters the facility. The boxes have holes t=
+hat allow light to pass from one box to the next all the way down the line.=
+</p>
+<pre><code>      +-----+  +-----+         +-----+
+Light | Box |  | Box |   ...   | Box |
+-----------------------------------------&gt;
+      |  0  |  |  1  |   ...   | 255 |
+      +-----+  +-----+         +-----+
+</code></pre>
+<p>Inside each box, there are several <em>lens slots</em> that will keep a =
+lens correctly positioned to focus light passing through the box. The side =
+of each box has a panel that opens to allow you to insert or remove lenses =
+as necessary.</p>
+<p>Along the wall running parallel to the boxes is a large library containi=
+ng lenses organized by <em>focal length</em> ranging from <code>1</code> th=
+rough <code>9</code>. The reindeer also brings you a small handheld <a href=
+=3D"https://en.wikipedia.org/wiki/Label_printer" target=3D"_blank">label pr=
+inter</a>.</p>
+<p>The book goes on to explain how to perform each step in the initializati=
+on sequence, a process it calls the Holiday ASCII String Helper Manual Arra=
+ngement Procedure, or <em>HASHMAP</em> for short.</p>
+<p>Each step begins with a sequence of letters that indicate the <em>label<=
+/em> of the lens on which the step operates. The result of running the HASH=
+ algorithm on the label indicates the correct box for that step.</p>
+<p>The label will be immediately followed by a character that indicates the=
+ <em>operation</em> to perform: either an equals sign (<code>=3D</code>) or=
+ a dash (<code>-</code>).</p>
+<p>If the operation character is a <em>dash</em> (<code>-</code>), go to th=
+e relevant box and remove the lens with the given label if it is present in=
+ the box. Then, move any remaining lenses as far forward in the box as they=
+ can go without changing their order, filling any space made by removing th=
+e indicated lens. (If no lens in that box has the given label, nothing happ=
+ens.)</p>
+<p>If the operation character is an <em>equals sign</em> (<code>=3D</code>)=
+, it will be followed by a number indicating the <em>focal length</em> of t=
+he lens that needs to go into the relevant box; be sure to use the label ma=
+ker to mark the lens with the label given in the beginning of the step so y=
+ou can find it later. There are two possible situations:</p>
+<ul>
+<li>If there is already a lens in the box with the same label, <em>replace =
+the old lens</em> with the new lens: remove the old lens and put the new le=
+ns in its place, not moving any other lenses in the box.</li>
+<li>If there is <em>not</em> already a lens in the box with the same label,=
+ add the lens to the box immediately behind any lenses already in the box. =
+Don't move any of the other lenses when you do this. If there aren't any le=
+nses in the box, the new lens goes all the way to the front of the box.</li=
+>
+</ul>
+<p>Here is the contents of every box after each step in the example initial=
+ization sequence above:</p>
+<pre><code>After "rn=3D1":
+Box 0: [rn 1]
+
+After "cm-":
+Box 0: [rn 1]
+
+After "qp=3D3":
+Box 0: [rn 1]
+Box 1: [qp 3]
+
+After "cm=3D2":
+Box 0: [rn 1] [cm 2]
+Box 1: [qp 3]
+
+After "qp-":
+Box 0: [rn 1] [cm 2]
+
+After "pc=3D4":
+Box 0: [rn 1] [cm 2]
+Box 3: [pc 4]
+
+After "ot=3D9":
+Box 0: [rn 1] [cm 2]
+Box 3: [pc 4] [ot 9]
+
+After "ab=3D5":
+Box 0: [rn 1] [cm 2]
+Box 3: [pc 4] [ot 9] [ab 5]
+
+After "pc-":
+Box 0: [rn 1] [cm 2]
+Box 3: [ot 9] [ab 5]
+
+After "pc=3D6":
+Box 0: [rn 1] [cm 2]
+Box 3: [ot 9] [ab 5] [pc 6]
+
+After "ot=3D7":
+Box 0: [rn 1] [cm 2]
+Box 3: [ot 7] [ab 5] [pc 6]
+</code></pre>
+<p>All 256 boxes are always present; only the boxes that contain any lenses=
+ are shown here. Within each box, lenses are listed from front to back; eac=
+h lens is shown as its label and focal length in square brackets.</p>
+<p>To confirm that all of the lenses are installed correctly, add up the <e=
+m>focusing power</em> of all of the lenses. The focusing power of a single =
+lens is the result of multiplying together:</p>
+<ul>
+<li>One plus the box number of the lens in question.</li>
+<li>The slot number of the lens within the box: <code>1</code> for the firs=
+t lens, <code>2</code> for the second lens, and so on.</li>
+<li>The focal length of the lens.</li>
+</ul>
+<p>At the end of the above example, the focusing power of each lens is as f=
+ollows:</p>
+<ul>
+<li><code>rn</code>: <code>1</code> (box 0) * <code>1</code> (first slot) *=
+ <code>1</code> (focal length) =3D <code><em>1</em></code></li>
+<li><code>cm</code>: <code>1</code> (box 0) * <code>2</code> (second slot) =
+* <code>2</code> (focal length) =3D <code><em>4</em></code></li>
+<li><code>ot</code>: <code>4</code> (box 3) * <code>1</code> (first slot) *=
+ <code>7</code> (focal length) =3D <code><em>28</em></code></li>
+<li><code>ab</code>: <code>4</code> (box 3) * <code>2</code> (second slot) =
+* <code>5</code> (focal length) =3D <code><em>40</em></code></li>
+<li><code>pc</code>: <code>4</code> (box 3) * <code>3</code> (third slot) *=
+ <code>6</code> (focal length) =3D <code><em>72</em></code></li>
+</ul>
+<p>So, the above example ends up with a total focusing power of <code><em>1=
+45</em></code>.</p>
+<p>With the help of an over-enthusiastic reindeer in a hard hat, follow the=
+ initialization sequence. <em>What is the focusing power of the resulting l=
+ens configuration?</em></p>
+</article>
+<form method=3D"post" action=3D"https://adventofcode.com/2023/day/15/answer=
+"><p>Answer: <input type=3D"text" name=3D"answer" autocomplete=3D"off"> <in=
+put type=3D"submit" value=3D"[Submit]"></p></form>
+<p>Although it hasn't changed, you can still <a href=3D"https://adventofcod=
+e.com/2023/day/15/input" target=3D"_blank">get your puzzle input</a>.</p>
+<p>You can also <span class=3D"share">[Share<span class=3D"share-content">o=
+n
+  <a href=3D"https://twitter.com/intent/tweet?text=3DI%27ve+completed+Part+=
+One+of+%22Lens+Library%22+%2D+Day+15+%2D+Advent+of+Code+2023&amp;url=3Dhttp=
+s%3A%2F%2Fadventofcode%2Ecom%2F2023%2Fday%2F15&amp;related=3Dericwastl&amp;=
+hashtags=3DAdventOfCode" target=3D"_blank">Twitter</a>
+  <a target=3D"_blank">Mastodon</a></span>]</span> this puzzle.</p>
+</main>
+
+<!-- ga -->
+
+<!-- /ga -->
+
+</body></html>
+------MultipartBoundary--Dzgbbsr1dCADwtCT09P250Ovfn8Gy5d6I9nMHIUSqY----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://adventofcode.com/static/style.css?31
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=3DSource+Code+Pro:wgh=
+t@300");
+
+body { background: rgb(15, 15, 35); color: rgb(204, 204, 204); font-family:=
+ "Source Code Pro", monospace; font-weight: 300; font-size: 14pt; min-width=
+: 60em; }
+
+img { border: 0px; }
+
+a { outline: 0px; }
+
+main, figure, figcaption { display: block; }
+
+pre, code { font-family: "Source Code Pro", monospace; }
+
+header, main { text-size-adjust: none; }
+
+a { text-decoration: none; color: rgb(0, 153, 0); }
+
+a:hover, a:focus { color: rgb(153, 255, 153); }
+
+h1, h2 { font-size: 1em; font-weight: normal; }
+
+code { position: relative; display: inline-block; margin: 0px; padding: 0px=
+; }
+
+code::before { z-index: -1; content: ""; position: absolute; display: block=
+; inset: 3px -2px 0px; border: 1px solid rgb(51, 51, 64); background: rgb(1=
+6, 16, 26); }
+
+pre.wrap { max-width: 100%; white-space: pre-wrap; }
+
+.quiet { opacity: 0.5; }
+
+p.wrap { width: 45em; }
+
+.hidden-until-hover { border: 1px dotted gray; overflow: hidden; position: =
+relative; padding: 0px 0.5em; transition: border-color 0s linear 5s; }
+
+.hidden-until-hover::before { content: "(hover to reveal)"; position: absol=
+ute; opacity: 0.5; text-align: center; left: 0px; top: 0px; width: 100%; ov=
+erflow: hidden; transition: width 0s linear 5s; }
+
+.hidden-until-hover > * { visibility: hidden; transition: visibility 0s lin=
+ear 5s; }
+
+.hidden-until-hover:hover { transition: border-color 0s linear 1s; border-c=
+olor: transparent; }
+
+.hidden-until-hover:hover::before { content: "( keep hovering )"; transitio=
+n: width 0s linear 1s; width: 0px; }
+
+.hidden-until-hover:hover > * { transition: visibility 0s linear 1s; visibi=
+lity: visible; }
+
+.warning:not(.warning-active) { transition: color 1s ease 0s, opacity 1s ea=
+se 0s; }
+
+.warning-active { color: rgb(255, 0, 0); opacity: 1; }
+
+.star-count { color: rgb(255, 255, 102); }
+
+.supporter-badge { color: rgb(255, 255, 102); }
+
+a.supporter-badge:hover, a.supporter-badge:focus { text-decoration: none; c=
+olor: rgb(255, 255, 204); text-shadow: rgb(255, 255, 102) 0px 0px 5px; }
+
+.sponsor-badge { color: rgb(121, 162, 216); }
+
+a.sponsor-badge:hover, a.sponsor-badge:focus { text-decoration: none; color=
+: rgb(204, 219, 237); text-shadow: rgb(121, 162, 216) 0px 0px 5px; }
+
+#sidebar { width: 200px; float: right; margin: 0px 15px 2em 2em; position: =
+relative; z-index: 10; }
+
+#sponsor { margin-bottom: 2.5em; }
+
+header { white-space: nowrap; cursor: default; z-index: 100; margin-bottom:=
+ 2em; }
+
+header h1 { display: inline-block; margin: 0px; padding-right: 1em; }
+
+header h1 a, header h1 span { display: inline-block; text-decoration: none;=
+ color: rgb(0, 204, 0); text-shadow: rgb(0, 204, 0) 0px 0px 2px, rgb(0, 204=
+, 0) 0px 0px 5px; }
+
+header h1 a:hover, header h1 a:focus { color: rgb(153, 255, 153); text-shad=
+ow: rgb(153, 255, 153) 0px 0px 2px, rgb(153, 255, 153) 0px 0px 5px; }
+
+header h1.title-event .title-event-wrap { opacity: 0.33; white-space: pre; =
+}
+
+header .user { display: inline-block; padding-left: 1em; }
+
+header nav { display: inline-block; }
+
+header nav ul { list-style-type: none; padding: 0px; margin: 0px; display: =
+inline-block; }
+
+header nav li { display: inline-block; padding: 0px 0.6em; }
+
+header nav a { display: inline-block; text-decoration: none; outline: none;=
+ }
+
+input[type=3D"text"], textarea { color: inherit; border: 1px solid rgb(102,=
+ 102, 102); background: rgb(16, 16, 26); padding: 0px 2px; font-family: inh=
+erit; font-size: inherit; margin: 0px; }
+
+textarea { vertical-align: top; }
+
+label img { vertical-align: bottom; position: relative; top: -3px; margin-r=
+ight: 0.3em; }
+
+input[type=3D"radio"] { display: none; }
+
+input[type=3D"radio"] ~ span { cursor: pointer; display: inline-block; }
+
+input[type=3D"radio"] ~ span::before { content: "( ) "; }
+
+input[type=3D"radio"] ~ span:hover, input[type=3D"radio"] ~ span:focus { ba=
+ckground-color: rgb(25, 25, 59); }
+
+input[type=3D"radio"]:checked ~ span { color: rgb(255, 255, 255); }
+
+input[type=3D"radio"]:checked ~ span::before { content: "(O) "; }
+
+input[type=3D"checkbox"] { display: none; }
+
+input[type=3D"checkbox"] ~ span { cursor: pointer; display: inline-block; }
+
+input[type=3D"checkbox"] ~ span::before { content: "[ ] "; }
+
+input[type=3D"checkbox"] ~ span:hover, input[type=3D"checkbox"] ~ span:focu=
+s { background-color: rgb(25, 25, 59); }
+
+input[type=3D"checkbox"]:checked ~ span { color: rgb(255, 255, 255); }
+
+input[type=3D"checkbox"]:checked ~ span::before { content: "[X] "; }
+
+input[type=3D"checkbox"]:disabled ~ span { opacity: 0.3; cursor: default; }
+
+input[type=3D"checkbox"]:disabled ~ span::before { content: "[-] "; }
+
+input[type=3D"checkbox"]:disabled ~ span:hover { background-color: transpar=
+ent; }
+
+input[type=3D"submit"] { background: transparent; border: 0px; font-family:=
+ inherit; font-size: inherit; margin: 0px; padding: 0px; color: rgb(0, 153,=
+ 0); cursor: pointer; }
+
+input[type=3D"submit"]:hover, input[type=3D"submit"]:focus { color: rgb(153=
+, 255, 153); }
+
+article { width: 45em; margin-bottom: 2em; margin-top: 2em; }
+
+article:first-of-type { margin-top: 0px; }
+
+article h2 { color: rgb(255, 255, 255); margin-top: 1em; margin-bottom: 1em=
+; white-space: nowrap; }
+
+article h2 + * { margin-top: 0px; }
+
+article em { color: rgb(255, 255, 255); font-style: normal; text-shadow: rg=
+b(255, 255, 255) 0px 0px 5px; }
+
+article em.star { color: rgb(255, 255, 102); font-style: normal; text-shado=
+w: rgb(255, 255, 102) 0px 0px 5px; }
+
+article a { white-space: nowrap; }
+
+article .aside { opacity: 0.6; }
+
+article ul { list-style-type: none; padding: 0px; }
+
+article li { padding-left: 2.5em; position: relative; }
+
+article li::before { content: "=C2=A0=C2=A0-=C2=A0"; position: absolute; le=
+ft: 0px; top: 0px; }
+
+.day-success { color: rgb(255, 255, 102); text-shadow: rgb(255, 255, 102) 0=
+px 0px 5px; }
+
+form#settings input[type=3D"radio"] ~ span { min-width: 30em; }
+
+form#settings input[type=3D"checkbox"] ~ span { min-width: 30em; }
+
+.share { color: rgb(0, 153, 0); cursor: default; transition: color 0.2s eas=
+e 1s; }
+
+.share:hover, .share:focus-within { color: rgb(170, 255, 170); transition: =
+color 0.2s ease 0s; }
+
+.share .share-content { display: inline-block; vertical-align: text-bottom;=
+ white-space: nowrap; overflow: hidden; max-width: 0px; transition: max-wid=
+th 0.2s ease 1s; }
+
+.share .share-content::before { content: "=C2=A0"; }
+
+.share .share-content::after { }
+
+.share:hover .share-content, .share:focus-within .share-content { max-width=
+: 45em; transition: max-width 0.2s ease 0s; }
+
+.puzzle-input { border: 1px solid rgb(153, 153, 153); background: rgb(51, 5=
+1, 51); color: rgb(255, 255, 255); text-shadow: rgb(255, 255, 255) 0px 0px =
+5px; }
+
+.calendar { cursor: default; user-select: none; }
+
+.calendar > span { color: rgb(51, 51, 51); }
+
+.calendar > a { text-decoration: none; color: rgb(102, 102, 102); outline: =
+none; cursor: default; }
+
+.calendar a:hover, .calendar a:focus { background-color: rgba(119, 119, 165=
+, 0.2); cursor: pointer; }
+
+#calendar-countdown { padding-left: 0.5em; color: rgb(204, 204, 204); }
+
+.calendar .calendar-day { color: rgb(102, 102, 102); }
+
+.calendar a .calendar-day { color: rgb(204, 204, 204); }
+
+.calendar a .calendar-mark-complete, .calendar a .calendar-mark-verycomplet=
+e { visibility: hidden; }
+
+.calendar a.calendar-complete .calendar-mark-complete, .calendar a.calendar=
+-verycomplete .calendar-mark-complete { visibility: visible; color: rgb(255=
+, 255, 102); }
+
+.calendar a.calendar-verycomplete .calendar-mark-verycomplete { visibility:=
+ visible; color: rgb(255, 255, 102); }
+
+.calendar .calendar-day-new { animation: 5s ease 0s 1 normal none running a=
+nim-day-new; }
+
+.calendar .calendar-day-new .calendar-day { animation: 5s ease 0s 1 normal =
+none running anim-day-new-day; }
+
+@keyframes anim-day-new {=20
+  0% { color: rgb(51, 51, 51); text-shadow: transparent 0px 0px 5px; }
+  25% { color: rgb(255, 255, 255); text-shadow: rgb(255, 255, 255) 0px 0px =
+5px; }
+  100% { color: rgb(102, 102, 102); text-shadow: transparent 0px 0px 5px; }
+}
+
+@keyframes anim-day-new-day {=20
+  0% { color: rgb(102, 102, 102); text-shadow: transparent 0px 0px 5px; }
+  25% { color: rgb(255, 255, 255); text-shadow: rgb(255, 255, 255) 0px 0px =
+5px; }
+  100% { color: rgb(204, 204, 204); text-shadow: transparent 0px 0px 5px; }
+}
+
+.eventlist-event { white-space: pre; }
+
+.stats > span, .stats > span .stats-firstonly, .stats > span .stats-both { =
+color: rgb(102, 102, 102); }
+
+.stats > a { color: rgb(204, 204, 204); min-width: 35em; display: inline-bl=
+ock; }
+
+.stats > a:hover, .stats > a:focus { background-color: rgb(30, 30, 70); }
+
+.stats-firstonly { color: rgb(153, 153, 204); }
+
+.stats-both { color: rgb(255, 255, 102); }
+
+.leaderboard-daylinks { cursor: default; }
+
+.leaderboard-daylinks-selected { color: rgb(255, 255, 255); text-shadow: rg=
+b(255, 255, 255) 0px 0px 5px; }
+
+.leaderboard-daydesc-first { color: rgb(153, 153, 204); }
+
+.leaderboard-daydesc-both { color: rgb(255, 255, 102); }
+
+.leaderboard-entry { white-space: pre; }
+
+.leaderboard-entry .leaderboard-totalscore { color: rgb(255, 255, 255); }
+
+.leaderboard-anon { opacity: 0.6; }
+
+.leaderboard-userphoto { display: inline-block; height: 20px; width: 20px; =
+margin: 0px 0.5em; text-align: center; }
+
+.leaderboard-userphoto img { height: 20px; max-width: 20px; vertical-align:=
+ middle; position: relative; top: -2px; }
+
+.leaderboard-time { opacity: 0.5; }
+
+.privboard-row { white-space: pre; }
+
+.privboard-name { vertical-align: text-bottom; }
+
+.privboard-days > span { display: inline-block; color: rgb(51, 51, 51); }
+
+.privboard-days > a { display: inline-block; }
+
+.privboard-star-locked { visibility: hidden; }
+
+.privboard-star-unlocked { color: rgb(51, 51, 51); }
+
+.privboard-star-firstonly { color: rgb(153, 153, 204); }
+
+.privboard-star-both { color: rgb(255, 255, 102); }
+
+.privboard-delbtn { opacity: 0.33; }
+
+.privboard-row:hover .privboard-delbtn { opacity: 1; }
+
+.sponsors { width: 46em; }
+
+.sponsor { margin: 1em 0px; }
+------MultipartBoundary--Dzgbbsr1dCADwtCT09P250Ovfn8Gy5d6I9nMHIUSqY----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300
+
+@charset "utf-8";
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMRrTEUc.woff2") format("woff2"); unicode-=
+range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2=
+F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtM1rTEUc.woff2") format("woff2"); unicode-=
+range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMVrTEUc.woff2") format("woff2"); unicode-=
+range: U+1F00-1FFF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMprTEUc.woff2") format("woff2"); unicode-=
+range: U+370-3FF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMZrTEUc.woff2") format("woff2"); unicode-=
+range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+=
+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMdrTEUc.woff2") format("woff2"); unicode-=
+range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+=
+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMlrTA.woff2") format("woff2"); unicode-ra=
+nge: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308=
+, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+221=
+5, U+FEFF, U+FFFD; }
+------MultipartBoundary--Dzgbbsr1dCADwtCT09P250Ovfn8Gy5d6I9nMHIUSqY----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://adventofcode.com/static/highcontrast.css?1
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=3DSource+Code+Pro:wgh=
+t@400;900");
+
+* { background: transparent !important; color: black !important; text-shado=
+w: none !important; }
+
+body { background: white !important; font-weight: 400 !important; }
+
+article [title] { border-bottom-color: black !important; }
+
+a { color: rgb(0, 0, 255) !important; text-decoration: underline !important=
+; }
+
+em { font-weight: 900 !important; }
+
+code::before { background: transparent !important; border-color: black !imp=
+ortant; }
+
+.stats-firstonly { opacity: 0.5; }
+
+.privboard-star-firstonly { opacity: 0.667; }
+
+.privboard-star-unlocked { opacity: 0.333; }
+------MultipartBoundary--Dzgbbsr1dCADwtCT09P250Ovfn8Gy5d6I9nMHIUSqY----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900
+
+@charset "utf-8";
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMOvWjMY.woff2") format("woff2"); unicode-range: U+460-52F,=
+ U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlOevWjMY.woff2") format("woff2"); unicode-range: U+301, U+4=
+00-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMevWjMY.woff2") format("woff2"); unicode-range: U+1F00-1FF=
+F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlPuvWjMY.woff2") format("woff2"); unicode-range: U+370-3FF;=
+ }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMuvWjMY.woff2") format("woff2"); unicode-range: U+102-103,=
+ U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-30=
+4, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlM-vWjMY.woff2") format("woff2"); unicode-range: U+100-2AF,=
+ U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlPevW.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMOvWjMY.woff2") format("woff2"); unicode-range: U+460-52F,=
+ U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlOevWjMY.woff2") format("woff2"); unicode-range: U+301, U+4=
+00-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMevWjMY.woff2") format("woff2"); unicode-range: U+1F00-1FF=
+F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlPuvWjMY.woff2") format("woff2"); unicode-range: U+370-3FF;=
+ }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMuvWjMY.woff2") format("woff2"); unicode-range: U+102-103,=
+ U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-30=
+4, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlM-vWjMY.woff2") format("woff2"); unicode-range: U+100-2AF,=
+ U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlPevW.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+------MultipartBoundary--Dzgbbsr1dCADwtCT09P250Ovfn8Gy5d6I9nMHIUSqY------
