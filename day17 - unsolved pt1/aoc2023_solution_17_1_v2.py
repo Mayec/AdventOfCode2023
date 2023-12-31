@@ -5,10 +5,13 @@
 #		B is probably already implicit in Dijkstra's
 #		(You never go back to the cell you came from, it's inefficient)
  
-# To try to enforce constraint, in this v2, I will store 4 per cell, one for each incoming direction.
-# WIP. It's a mess right now, can't make it work.
-# What I think I need to fix it: graph nodes in the queue should not just be cell coordinates, but also the last move made to arrive to them.
-# Then base cost will not be inf. anymore, since it will be a known quantity
+# To try to enforce constraint, in this v2, I store 4 distances per cell,
+# one for each incoming direction.
+# Graph nodes in the queue are not just x,y cell coordinates, but also a third dimension for the
+# the last move made to arrive to them.
+
+# Close to working, but I get a non-optimal path with a cost of 105 for the test input,
+# instead of the optimal one with a cost of 102.
 
 import math
 
@@ -19,41 +22,66 @@ def drawGrid(grid):
 	print('')
 
 
+def drawPath(moves, bgGrid):
+	grid = bgGrid
+	cell = (0,0)
+	for move in moves:
+		x = cell[0]
+		y = cell[1]
+		if move == 0: #up
+			offset = (0,-1)
+			symbol = '^'
+		elif move == 1: #right
+			offset = (1,0)
+			symbol = '>'
+		elif move == 2: #down
+			offset = (0,1)
+			symbol = 'v'
+		elif move == 3: #left
+			offset = (-1,0)
+			symbol = '<'
+		nx = x + offset[0]
+		ny = y + offset[1]
+		grid[ny][nx] = symbol
+		cell = (nx,ny)
+		#print('cell: (%d,%d)' % cell)
+		
+	# draw resulting grid
+	for y in range(len(grid)):
+		print(''.join( map(str, grid[y]) ))
+
 def minCost(cells, distsGrid):
 	minDist = math.inf
 	result = None
-	for cell in cells:
+	for index,cell in enumerate(cells):
 		x = cell[0]
 		y = cell[1]
-		dist = distsGrid[y][x]
+		inmove = cell[2]
+		dist = distsGrid[y][x][inmove]
 		if dist < minDist:
 			minDist = dist
 			result = cell
-	return result
+			resultIndex = index
+	return resultIndex
 	
 	
 def adjCells(cell, xmax, ymax):
 	x = cell[0]
 	y = cell[1]
 	adjacents = []
-	moves = []
 	if (y-1) >= 0:
-		nextCell = (x, y-1)
+		nextCell = (x, y-1, 0) # move 0=up
 		adjacents.append(nextCell)
-		moves.append(0) # move 0=up
 	if (x+1) <= xmax:
-		nextCell = (x+1, y)
+		nextCell = (x+1, y, 1) # move 1=right
 		adjacents.append(nextCell)
-		moves.append(1) # move 1=right
 	if (y+1) <= ymax:
-		nextCell = (x, y+1)
+		nextCell = (x, y+1, 2) # move 2=down
 		adjacents.append(nextCell)
-		moves.append(2) # move 2=down
 	if (x-1) >= 0:
-		nextCell = (x-1, y)
-		adjacents.append(nextCell)
-		moves.append(3) # move 3=left	
-	return (adjacents, moves)
+		nextCell = (x-1, y, 3) # move 3=left
+		adjacents.append(nextCell)	
+	return (adjacents)
 	
 
 def main():
@@ -65,11 +93,10 @@ def main():
 	xmax = len(cCostsGrid[0]) - 1
 	ymax = len(cCostsGrid) - 1
 	
-	start = (0,0)
-	#start = ((xmax), (ymax))
+	start = (0,0,0) # x, y and entering move
 	
 	# START INITIALIZE RECORDS
-	tCostsGrid = [[]]
+	tCostsGrid = []
 	for y in range(ymax+1):
 		tCostsGrid.append([])
 		for x in range(xmax+1):
@@ -80,72 +107,96 @@ def main():
 	
 	#parentsGrid = [[None]*(xmax+1) for i in range(ymax+1)]
 	
-	movesGrid = [[]]
+	prevMovesGrid = []
 	for y in range(ymax+1):
-		movesGrid.append([])
+		prevMovesGrid.append([])
 		for x in range(xmax+1):
-			movesGrid[y].append([])
-			movesGrid[y][x] = [[None], [None], [None], [None]]
+			prevMovesGrid[y].append([])
+			prevMovesGrid[y][x] = [[None], [None], [None], [None]]
 	
 	queue = [start]
 	# END INITIALIZE RECORDS
 	
-	# Cost to starting cell is 0
+	# Cost to enter starting cell is 0 for all 4 incoming directions
 	x = start[0]
 	y = start[1]
 	for i in range(4):
 		tCostsGrid[y][x][i] = 0
 	
-	#while len(queue) > 0:
-	for i in range(10): # TEST limited steps
-		print(queue)
-		#pos = minCost(queue, tCostsGrid)
-		pos = queue.pop()
+	while len(queue) > 0:
+	#for i in range(10): # TEST limited steps
+		#print('====')
+		#print('Queue: %s' % queue)
+		index = minCost(queue, tCostsGrid)
+		pos = queue.pop(index)
 		x = pos[0]
 		y = pos[1]
-		print('pos: (%d,%d)' % (x,y))
-		#seenGrid[y][x] = True
-		
-		#for indir in range(4):
+		inmove = pos[2]
+		#print('pos: (%d,%d,%d)' % (x,y,inmove))
 
-		adjacents, moves =  adjCells(pos, xmax, ymax)
+		adjacents =  adjCells(pos, xmax, ymax)
 		
-		for id in range(len(adjacents)):
-			move = moves[id]
-			prevMoves = movesGrid[y][x][move]
-			baseCost = tCostsGrid[y][x][move] # <-- should not be indexed to [move], but to the move made to the origin node (see note about next steps, at the top)
+		for i in range(len(adjacents)):
+			move = adjacents[i][2]
+			prevMoves = prevMovesGrid[y][x][inmove]
+			baseCost = tCostsGrid[y][x][inmove]
 			
+			reverse = [2,3,0,1]
+			lastMove = prevMoves[-1]
 			# Enforce first constraint. If this would be fourth repeat of same move, skip
 			if prevMoves[-3:] == [move]*3:
 				pass
+				
+			# Enforce second constraint. If this is a reversal of previous move, skip
+			elif lastMove is not None and move == reverse[lastMove]:
+				pass
+				
 			else:		
-				cell = adjacents[id]
+				cell = adjacents[i]
 				ax = cell[0]
 				ay = cell[1]
 				if move not in seenGrid[y][x]:
-					seenGrid[y][x] = seenGrid[y][x] + [move]
+					if seenGrid[y][x] == [None]:
+						seenGrid[y][x] = [move]
+					else:
+						seenGrid[y][x] = seenGrid[y][x] + [move]
+					
 					cellCost = cCostsGrid[ay][ax]
-					recCost = tCostsGrid[ay][ax][move]
+					recordCost = tCostsGrid[ay][ax][move]
 					cost = baseCost + cellCost
-					print('---')
-					print(baseCost)
-					print(cellCost)
-					print('cell: (%d,%d), cost: %s' % (ax,ay, cost))
-					print(recCost)
-					for m in range(4):
-						if cost < recCost:
-							tCostsGrid[ay][ax][move] = cost
-							#parentsGrid[ay][ax] = pos
-							movesGrid[ay][ax][move] = prevMoves + [move]
-							queue.append(cell)
+					
+					if cost < recordCost:
+						tCostsGrid[ay][ax][move] = cost
+						prevMovesGrid[ay][ax][move] = prevMoves + [move]
+						queue.append(cell)
 		
-	drawGrid(tCostsGrid)
-	drawGrid(seenGrid)
+		#drawGrid(tCostsGrid)
+			
+	#drawGrid(tCostsGrid)
+	#drawGrid(seenGrid)
 	#drawGrid(parentsGrid)
-	#drawGrid(movesGrid)
+	#drawGrid(prevMovesGrid)
 	#print(queue)
 	
-	print('Best moves: %s' % movesGrid[ymax][xmax])
+	# Extract shortest path:
+	x = xmax
+	y = ymax
+	min_cost = math.inf
+	last_move = None
+	for m in range(4):
+		total_cost = tCostsGrid[y][x][m]
+		if total_cost < min_cost:
+			min_cost = total_cost
+			last_move = m
+	prevMoves = prevMovesGrid[y][x][last_move][1:] #skip first 'None' move
+	
+	print('Lowest cost: %d' % min_cost)
+	#print('Best last move: %d' % last_move)
+	print('Best moves: %s' % prevMoves)
+	print('Path on grid:') 
+	drawPath(prevMoves, cCostsGrid)
+	
+	#print('Best moves: %s' % prevMovesGrid[ymax][xmax])
 	
 main()
-# Result: 877 is too high
+# Result: 870 is too high
