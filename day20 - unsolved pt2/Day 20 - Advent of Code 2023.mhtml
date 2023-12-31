@@ -1,0 +1,811 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://adventofcode.com/2023/day/20#part2
+Subject: Day 20 - Advent of Code 2023
+Date: Sun, 31 Dec 2023 00:19:41 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--BCDiwk8d2UHiAFwDslsqDJBoDEt8nkXThDaMjgNMAt----"
+
+
+------MultipartBoundary--BCDiwk8d2UHiAFwDslsqDJBoDEt8nkXThDaMjgNMAt----
+Content-Type: text/html
+Content-ID: <frame-763BD9519EBD5829B2DA4A05FD2DB421@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://adventofcode.com/2023/day/20#part2
+
+<!DOCTYPE html><html lang=3D"en-us"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8">
+
+<title>Day 20 - Advent of Code 2023</title>
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://adventofcode.com=
+/static/style.css?31">
+<link rel=3D"stylesheet alternate" type=3D"text/css" href=3D"https://advent=
+ofcode.com/static/highcontrast.css?1" title=3D"High Contrast">
+<link rel=3D"shortcut icon" href=3D"https://adventofcode.com/favicon.png">
+
+</head><!--
+
+
+
+
+Oh, hello!  Funny seeing you here.
+
+I appreciate your enthusiasm, but you aren't going to find much down here.
+There certainly aren't clues to any of the puzzles.  The best surprises don=
+'t
+even appear in the source until you unlock them for real.
+
+Please be careful with automated requests; I'm not a massive company, and I=
+ can
+only take so much traffic.  Please be considerate so that everyone gets to =
+play.
+
+If you're curious about how Advent of Code works, it's running on some cust=
+om
+Perl code. Other than a few integrations (auth, analytics, social media), I
+built the whole thing myself, including the design, animations, prose, and =
+all
+of the puzzles.
+
+The puzzles are most of the work; preparing a new calendar and a new set of
+puzzles each year takes all of my free time for 4-5 months. A lot of effort
+went into building this thing - I hope you're enjoying playing it as much a=
+s I
+enjoyed making it for you!
+
+If you'd like to hang out, I'm @ericwastl@hachyderm.io on Mastodon and
+@ericwastl on Twitter.
+
+- Eric Wastl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+<body>
+<header><div><h1 class=3D"title-global"><a href=3D"https://adventofcode.com=
+/">Advent of Code</a></h1><nav><ul><li><a href=3D"https://adventofcode.com/=
+2023/about">[About]</a></li><li><a href=3D"https://adventofcode.com/2023/ev=
+ents">[Events]</a></li><li><a href=3D"https://teespring.com/stores/advent-o=
+f-code" target=3D"_blank">[Shop]</a></li><li><a href=3D"https://adventofcod=
+e.com/2023/settings">[Settings]</a></li><li><a href=3D"https://adventofcode=
+.com/2023/auth/logout">[Log Out]</a></li></ul></nav><div class=3D"user">May=
+ec Rancel <span class=3D"star-count">38*</span></div></div><div><h1 class=
+=3D"title-event">&nbsp;&nbsp;&nbsp;<span class=3D"title-event-wrap">var y=
+=3D</span><a href=3D"https://adventofcode.com/2023">2023</a><span class=3D"=
+title-event-wrap">;</span></h1><nav><ul><li><a href=3D"https://adventofcode=
+.com/2023">[Calendar]</a></li><li><a href=3D"https://adventofcode.com/2023/=
+support">[AoC++]</a></li><li><a href=3D"https://adventofcode.com/2023/spons=
+ors">[Sponsors]</a></li><li><a href=3D"https://adventofcode.com/2023/leader=
+board">[Leaderboard]</a></li><li><a href=3D"https://adventofcode.com/2023/s=
+tats">[Stats]</a></li></ul></nav></div></header>
+
+<div id=3D"sidebar">
+<div id=3D"sponsor"><div class=3D"quiet">Our <a href=3D"https://adventofcod=
+e.com/2023/sponsors">sponsors</a> help make Advent of Code possible:</div><=
+div class=3D"sponsor"><a href=3D"https://monta.com/" target=3D"_blank" rel=
+=3D"noopener">Monta</a> - Monta is the ultimate platform powering the entir=
+e EV charging ecosystem. From drivers, to businesses, to industry partners,=
+ we offer software solutions that cover all EV charging needs.</div></div>
+</div><!--/sidebar-->
+
+<main>
+<article class=3D"day-desc"><h2>--- Day 20: Pulse Propagation ---</h2><p>Wi=
+th your help, the Elves manage to find the right parts and fix all of the m=
+achines. Now, they just need to send the command to boot up the machines an=
+d get the sand flowing again.</p>
+<p>The machines are far apart and wired together with long <em>cables</em>.=
+ The cables don't connect to the machines directly, but rather to communica=
+tion <em>modules</em> attached to the machines that perform various initial=
+ization tasks and also act as communication relays.</p>
+<p>Modules communicate using <em>pulses</em>. Each pulse is either a <em>hi=
+gh pulse</em> or a <em>low pulse</em>. When a module sends a pulse, it send=
+s that type of pulse to each module in its list of <em>destination modules<=
+/em>.</p>
+<p>There are several different types of modules:</p>
+<p><em>Flip-flop</em> modules (prefix <code>%</code>) are either <em>on</em=
+> or <em>off</em>; they are initially <em>off</em>. If a flip-flop module r=
+eceives a high pulse, it is ignored and nothing happens. However, if a flip=
+-flop module receives a low pulse, it <em>flips between on and off</em>. If=
+ it was off, it turns on and sends a high pulse. If it was on, it turns off=
+ and sends a low pulse.</p>
+<p><em>Conjunction</em> modules (prefix <code>&amp;</code>) <em>remember</e=
+m> the type of the most recent pulse received from <em>each</em> of their c=
+onnected input modules; they initially default to remembering a <em>low pul=
+se</em> for each input. When a pulse is received, the conjunction module fi=
+rst updates its memory for that input. Then, if it remembers <em>high pulse=
+s</em> for all inputs, it sends a <em>low pulse</em>; otherwise, it sends a=
+ <em>high pulse</em>.</p>
+<p>There is a single <em>broadcast module</em> (named <code>broadcaster</co=
+de>). When it receives a pulse, it sends the same pulse to all of its desti=
+nation modules.</p>
+<p>Here at Desert Machine Headquarters, there is a module with a single but=
+ton on it called, aptly, the <em>button module</em>. When you push the butt=
+on, a single <em>low pulse</em> is sent directly to the <code>broadcaster</=
+code> module.</p>
+<p>After pushing the button, you must wait until all pulses have been deliv=
+ered and fully handled before pushing it again. Never push the button if mo=
+dules are still processing pulses.</p>
+<p>Pulses are always processed <em>in the order they are sent</em>. So, if =
+a pulse is sent to modules <code>a</code>, <code>b</code>, and <code>c</cod=
+e>, and then module <code>a</code> processes its pulse and sends more pulse=
+s, the pulses sent to modules <code>b</code> and <code>c</code> would have =
+to be handled first.</p>
+<p>The module configuration (your puzzle input) lists each module. The name=
+ of the module is preceded by a symbol identifying its type, if any. The na=
+me is then followed by an arrow and a list of its destination modules. For =
+example:</p>
+<pre><code>broadcaster -&gt; a, b, c
+%a -&gt; b
+%b -&gt; c
+%c -&gt; inv
+&amp;inv -&gt; a
+</code></pre>
+<p>In this module configuration, the broadcaster has three destination modu=
+les named <code>a</code>, <code>b</code>, and <code>c</code>. Each of these=
+ modules is a flip-flop module (as indicated by the <code>%</code> prefix).=
+ <code>a</code> outputs to <code>b</code> which outputs to <code>c</code> w=
+hich outputs to another module named <code>inv</code>. <code>inv</code> is =
+a conjunction module (as indicated by the <code>&amp;</code> prefix) which,=
+ because it has only one input, acts like an <span title=3D"This puzzle ori=
+ginally had a separate inverter module type until I realized it was just a =
+worse conjunction module.">inverter</span> (it sends the opposite of the pu=
+lse type it receives); it outputs to <code>a</code>.</p>
+<p>By pushing the button once, the following pulses are sent:</p>
+<pre><code>button -low-&gt; broadcaster
+broadcaster -low-&gt; a
+broadcaster -low-&gt; b
+broadcaster -low-&gt; c
+a -high-&gt; b
+b -high-&gt; c
+c -high-&gt; inv
+inv -low-&gt; a
+a -low-&gt; b
+b -low-&gt; c
+c -low-&gt; inv
+inv -high-&gt; a
+</code></pre>
+<p>After this sequence, the flip-flop modules all end up <em>off</em>, so p=
+ushing the button again repeats the same sequence.</p>
+<p>Here's a more interesting example:</p>
+<pre><code>broadcaster -&gt; a
+%a -&gt; inv, con
+&amp;inv -&gt; b
+%b -&gt; con
+&amp;con -&gt; output
+</code></pre>
+<p>This module configuration includes the <code>broadcaster</code>, two fli=
+p-flops (named <code>a</code> and <code>b</code>), a single-input conjuncti=
+on module (<code>inv</code>), a multi-input conjunction module (<code>con</=
+code>), and an untyped module named <code>output</code> (for testing purpos=
+es). The multi-input conjunction module <code>con</code> watches the two fl=
+ip-flop modules and, if they're both on, sends a <em>low pulse</em> to the =
+<code>output</code> module.</p>
+<p>Here's what happens if you push the button once:</p>
+<pre><code>button -low-&gt; broadcaster
+broadcaster -low-&gt; a
+a -high-&gt; inv
+a -high-&gt; con
+inv -low-&gt; b
+con -high-&gt; output
+b -high-&gt; con
+con -low-&gt; output
+</code></pre>
+<p>Both flip-flops turn on and a low pulse is sent to <code>output</code>! =
+However, now that both flip-flops are on and <code>con</code> remembers a h=
+igh pulse from each of its two inputs, pushing the button a second time doe=
+s something different:</p>
+<pre><code>button -low-&gt; broadcaster
+broadcaster -low-&gt; a
+a -low-&gt; inv
+a -low-&gt; con
+inv -high-&gt; b
+con -high-&gt; output
+</code></pre>
+<p>Flip-flop <code>a</code> turns off! Now, <code>con</code> remembers a lo=
+w pulse from module <code>a</code>, and so it sends only a high pulse to <c=
+ode>output</code>.</p>
+<p>Push the button a third time:</p>
+<pre><code>button -low-&gt; broadcaster
+broadcaster -low-&gt; a
+a -high-&gt; inv
+a -high-&gt; con
+inv -low-&gt; b
+con -low-&gt; output
+b -low-&gt; con
+con -high-&gt; output
+</code></pre>
+<p>This time, flip-flop <code>a</code> turns on, then flip-flop <code>b</co=
+de> turns off. However, before <code>b</code> can turn off, the pulse sent =
+to <code>con</code> is handled first, so it <em>briefly remembers all high =
+pulses</em> for its inputs and sends a low pulse to <code>output</code>. Af=
+ter that, flip-flop <code>b</code> turns off, which causes <code>con</code>=
+ to update its state and send a high pulse to <code>output</code>.</p>
+<p>Finally, with <code>a</code> on and <code>b</code> off, push the button =
+a fourth time:</p>
+<pre><code>button -low-&gt; broadcaster
+broadcaster -low-&gt; a
+a -low-&gt; inv
+a -low-&gt; con
+inv -high-&gt; b
+con -high-&gt; output
+</code></pre>
+<p>This completes the cycle: <code>a</code> turns off, causing <code>con</c=
+ode> to remember only low pulses and restoring all modules to their origina=
+l states.</p>
+<p>To get the cables warmed up, the Elves have pushed the button <code>1000=
+</code> times. How many pulses got sent as a result (including the pulses s=
+ent by the button itself)?</p>
+<p>In the first example, the same thing happens every time the button is pu=
+shed: <code>8</code> low pulses and <code>4</code> high pulses are sent. So=
+, after pushing the button <code>1000</code> times, <code>8000</code> low p=
+ulses and <code>4000</code> high pulses are sent. Multiplying these togethe=
+r gives <code><em>32000000</em></code>.</p>
+<p>In the second example, after pushing the button <code>1000</code> times,=
+ <code>4250</code> low pulses and <code>2750</code> high pulses are sent. M=
+ultiplying these together gives <code><em>11687500</em></code>.</p>
+<p>Consult your module configuration; determine the number of low pulses an=
+d high pulses that would be sent after pushing the button <code>1000</code>=
+ times, waiting for all pulses to be fully handled after each push of the b=
+utton. <em>What do you get if you multiply the total number of low pulses s=
+ent by the total number of high pulses sent?</em></p>
+</article>
+<p>Your puzzle answer was <code>919383692</code>.</p><p class=3D"day-succes=
+s">The first half of this puzzle is complete! It provides one gold star: *<=
+/p>
+<article class=3D"day-desc"><h2 id=3D"part2">--- Part Two ---</h2><p>The fi=
+nal machine responsible for moving the sand down to Island Island has a mod=
+ule attached named <code>rx</code>. The machine turns on when a <em>single =
+low pulse</em> is sent to <code>rx</code>.</p>
+<p>Reset all modules to their default states. Waiting for all pulses to be =
+fully handled after each button press, <em>what is the fewest number of but=
+ton presses required to deliver a single low pulse to the module named <cod=
+e>rx</code>?</em></p>
+</article>
+<form method=3D"post" action=3D"https://adventofcode.com/2023/day/20/answer=
+"><p>Answer: <input type=3D"text" name=3D"answer" autocomplete=3D"off"> <in=
+put type=3D"submit" value=3D"[Submit]"></p></form>
+<p>Although it hasn't changed, you can still <a href=3D"https://adventofcod=
+e.com/2023/day/20/input" target=3D"_blank">get your puzzle input</a>.</p>
+<p>You can also <span class=3D"share">[Share<span class=3D"share-content">o=
+n
+  <a href=3D"https://twitter.com/intent/tweet?text=3DI%27ve+completed+Part+=
+One+of+%22Pulse+Propagation%22+%2D+Day+20+%2D+Advent+of+Code+2023&amp;url=
+=3Dhttps%3A%2F%2Fadventofcode%2Ecom%2F2023%2Fday%2F20&amp;related=3Dericwas=
+tl&amp;hashtags=3DAdventOfCode" target=3D"_blank">Twitter</a>
+  <a target=3D"_blank">Mastodon</a></span>]</span> this puzzle.</p>
+</main>
+
+<!-- ga -->
+
+<!-- /ga -->
+
+</body></html>
+------MultipartBoundary--BCDiwk8d2UHiAFwDslsqDJBoDEt8nkXThDaMjgNMAt----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://adventofcode.com/static/style.css?31
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=3DSource+Code+Pro:wgh=
+t@300");
+
+body { background: rgb(15, 15, 35); color: rgb(204, 204, 204); font-family:=
+ "Source Code Pro", monospace; font-weight: 300; font-size: 14pt; min-width=
+: 60em; }
+
+img { border: 0px; }
+
+a { outline: 0px; }
+
+main, figure, figcaption { display: block; }
+
+pre, code { font-family: "Source Code Pro", monospace; }
+
+header, main { text-size-adjust: none; }
+
+a { text-decoration: none; color: rgb(0, 153, 0); }
+
+a:hover, a:focus { color: rgb(153, 255, 153); }
+
+h1, h2 { font-size: 1em; font-weight: normal; }
+
+code { position: relative; display: inline-block; margin: 0px; padding: 0px=
+; }
+
+code::before { z-index: -1; content: ""; position: absolute; display: block=
+; inset: 3px -2px 0px; border: 1px solid rgb(51, 51, 64); background: rgb(1=
+6, 16, 26); }
+
+pre.wrap { max-width: 100%; white-space: pre-wrap; }
+
+.quiet { opacity: 0.5; }
+
+p.wrap { width: 45em; }
+
+.hidden-until-hover { border: 1px dotted gray; overflow: hidden; position: =
+relative; padding: 0px 0.5em; transition: border-color 0s linear 5s; }
+
+.hidden-until-hover::before { content: "(hover to reveal)"; position: absol=
+ute; opacity: 0.5; text-align: center; left: 0px; top: 0px; width: 100%; ov=
+erflow: hidden; transition: width 0s linear 5s; }
+
+.hidden-until-hover > * { visibility: hidden; transition: visibility 0s lin=
+ear 5s; }
+
+.hidden-until-hover:hover { transition: border-color 0s linear 1s; border-c=
+olor: transparent; }
+
+.hidden-until-hover:hover::before { content: "( keep hovering )"; transitio=
+n: width 0s linear 1s; width: 0px; }
+
+.hidden-until-hover:hover > * { transition: visibility 0s linear 1s; visibi=
+lity: visible; }
+
+.warning:not(.warning-active) { transition: color 1s ease 0s, opacity 1s ea=
+se 0s; }
+
+.warning-active { color: rgb(255, 0, 0); opacity: 1; }
+
+.star-count { color: rgb(255, 255, 102); }
+
+.supporter-badge { color: rgb(255, 255, 102); }
+
+a.supporter-badge:hover, a.supporter-badge:focus { text-decoration: none; c=
+olor: rgb(255, 255, 204); text-shadow: rgb(255, 255, 102) 0px 0px 5px; }
+
+.sponsor-badge { color: rgb(121, 162, 216); }
+
+a.sponsor-badge:hover, a.sponsor-badge:focus { text-decoration: none; color=
+: rgb(204, 219, 237); text-shadow: rgb(121, 162, 216) 0px 0px 5px; }
+
+#sidebar { width: 200px; float: right; margin: 0px 15px 2em 2em; position: =
+relative; z-index: 10; }
+
+#sponsor { margin-bottom: 2.5em; }
+
+header { white-space: nowrap; cursor: default; z-index: 100; margin-bottom:=
+ 2em; }
+
+header h1 { display: inline-block; margin: 0px; padding-right: 1em; }
+
+header h1 a, header h1 span { display: inline-block; text-decoration: none;=
+ color: rgb(0, 204, 0); text-shadow: rgb(0, 204, 0) 0px 0px 2px, rgb(0, 204=
+, 0) 0px 0px 5px; }
+
+header h1 a:hover, header h1 a:focus { color: rgb(153, 255, 153); text-shad=
+ow: rgb(153, 255, 153) 0px 0px 2px, rgb(153, 255, 153) 0px 0px 5px; }
+
+header h1.title-event .title-event-wrap { opacity: 0.33; white-space: pre; =
+}
+
+header .user { display: inline-block; padding-left: 1em; }
+
+header nav { display: inline-block; }
+
+header nav ul { list-style-type: none; padding: 0px; margin: 0px; display: =
+inline-block; }
+
+header nav li { display: inline-block; padding: 0px 0.6em; }
+
+header nav a { display: inline-block; text-decoration: none; outline: none;=
+ }
+
+input[type=3D"text"], textarea { color: inherit; border: 1px solid rgb(102,=
+ 102, 102); background: rgb(16, 16, 26); padding: 0px 2px; font-family: inh=
+erit; font-size: inherit; margin: 0px; }
+
+textarea { vertical-align: top; }
+
+label img { vertical-align: bottom; position: relative; top: -3px; margin-r=
+ight: 0.3em; }
+
+input[type=3D"radio"] { display: none; }
+
+input[type=3D"radio"] ~ span { cursor: pointer; display: inline-block; }
+
+input[type=3D"radio"] ~ span::before { content: "( ) "; }
+
+input[type=3D"radio"] ~ span:hover, input[type=3D"radio"] ~ span:focus { ba=
+ckground-color: rgb(25, 25, 59); }
+
+input[type=3D"radio"]:checked ~ span { color: rgb(255, 255, 255); }
+
+input[type=3D"radio"]:checked ~ span::before { content: "(O) "; }
+
+input[type=3D"checkbox"] { display: none; }
+
+input[type=3D"checkbox"] ~ span { cursor: pointer; display: inline-block; }
+
+input[type=3D"checkbox"] ~ span::before { content: "[ ] "; }
+
+input[type=3D"checkbox"] ~ span:hover, input[type=3D"checkbox"] ~ span:focu=
+s { background-color: rgb(25, 25, 59); }
+
+input[type=3D"checkbox"]:checked ~ span { color: rgb(255, 255, 255); }
+
+input[type=3D"checkbox"]:checked ~ span::before { content: "[X] "; }
+
+input[type=3D"checkbox"]:disabled ~ span { opacity: 0.3; cursor: default; }
+
+input[type=3D"checkbox"]:disabled ~ span::before { content: "[-] "; }
+
+input[type=3D"checkbox"]:disabled ~ span:hover { background-color: transpar=
+ent; }
+
+input[type=3D"submit"] { background: transparent; border: 0px; font-family:=
+ inherit; font-size: inherit; margin: 0px; padding: 0px; color: rgb(0, 153,=
+ 0); cursor: pointer; }
+
+input[type=3D"submit"]:hover, input[type=3D"submit"]:focus { color: rgb(153=
+, 255, 153); }
+
+article { width: 45em; margin-bottom: 2em; margin-top: 2em; }
+
+article:first-of-type { margin-top: 0px; }
+
+article h2 { color: rgb(255, 255, 255); margin-top: 1em; margin-bottom: 1em=
+; white-space: nowrap; }
+
+article h2 + * { margin-top: 0px; }
+
+article em { color: rgb(255, 255, 255); font-style: normal; text-shadow: rg=
+b(255, 255, 255) 0px 0px 5px; }
+
+article em.star { color: rgb(255, 255, 102); font-style: normal; text-shado=
+w: rgb(255, 255, 102) 0px 0px 5px; }
+
+article a { white-space: nowrap; }
+
+article .aside { opacity: 0.6; }
+
+article ul { list-style-type: none; padding: 0px; }
+
+article li { padding-left: 2.5em; position: relative; }
+
+article li::before { content: "=C2=A0=C2=A0-=C2=A0"; position: absolute; le=
+ft: 0px; top: 0px; }
+
+.day-success { color: rgb(255, 255, 102); text-shadow: rgb(255, 255, 102) 0=
+px 0px 5px; }
+
+form#settings input[type=3D"radio"] ~ span { min-width: 30em; }
+
+form#settings input[type=3D"checkbox"] ~ span { min-width: 30em; }
+
+.share { color: rgb(0, 153, 0); cursor: default; transition: color 0.2s eas=
+e 1s; }
+
+.share:hover, .share:focus-within { color: rgb(170, 255, 170); transition: =
+color 0.2s ease 0s; }
+
+.share .share-content { display: inline-block; vertical-align: text-bottom;=
+ white-space: nowrap; overflow: hidden; max-width: 0px; transition: max-wid=
+th 0.2s ease 1s; }
+
+.share .share-content::before { content: "=C2=A0"; }
+
+.share .share-content::after { }
+
+.share:hover .share-content, .share:focus-within .share-content { max-width=
+: 45em; transition: max-width 0.2s ease 0s; }
+
+.puzzle-input { border: 1px solid rgb(153, 153, 153); background: rgb(51, 5=
+1, 51); color: rgb(255, 255, 255); text-shadow: rgb(255, 255, 255) 0px 0px =
+5px; }
+
+.calendar { cursor: default; user-select: none; }
+
+.calendar > span { color: rgb(51, 51, 51); }
+
+.calendar > a { text-decoration: none; color: rgb(102, 102, 102); outline: =
+none; cursor: default; }
+
+.calendar a:hover, .calendar a:focus { background-color: rgba(119, 119, 165=
+, 0.2); cursor: pointer; }
+
+#calendar-countdown { padding-left: 0.5em; color: rgb(204, 204, 204); }
+
+.calendar .calendar-day { color: rgb(102, 102, 102); }
+
+.calendar a .calendar-day { color: rgb(204, 204, 204); }
+
+.calendar a .calendar-mark-complete, .calendar a .calendar-mark-verycomplet=
+e { visibility: hidden; }
+
+.calendar a.calendar-complete .calendar-mark-complete, .calendar a.calendar=
+-verycomplete .calendar-mark-complete { visibility: visible; color: rgb(255=
+, 255, 102); }
+
+.calendar a.calendar-verycomplete .calendar-mark-verycomplete { visibility:=
+ visible; color: rgb(255, 255, 102); }
+
+.calendar .calendar-day-new { animation: 5s ease 0s 1 normal none running a=
+nim-day-new; }
+
+.calendar .calendar-day-new .calendar-day { animation: 5s ease 0s 1 normal =
+none running anim-day-new-day; }
+
+@keyframes anim-day-new {=20
+  0% { color: rgb(51, 51, 51); text-shadow: transparent 0px 0px 5px; }
+  25% { color: rgb(255, 255, 255); text-shadow: rgb(255, 255, 255) 0px 0px =
+5px; }
+  100% { color: rgb(102, 102, 102); text-shadow: transparent 0px 0px 5px; }
+}
+
+@keyframes anim-day-new-day {=20
+  0% { color: rgb(102, 102, 102); text-shadow: transparent 0px 0px 5px; }
+  25% { color: rgb(255, 255, 255); text-shadow: rgb(255, 255, 255) 0px 0px =
+5px; }
+  100% { color: rgb(204, 204, 204); text-shadow: transparent 0px 0px 5px; }
+}
+
+.eventlist-event { white-space: pre; }
+
+.stats > span, .stats > span .stats-firstonly, .stats > span .stats-both { =
+color: rgb(102, 102, 102); }
+
+.stats > a { color: rgb(204, 204, 204); min-width: 35em; display: inline-bl=
+ock; }
+
+.stats > a:hover, .stats > a:focus { background-color: rgb(30, 30, 70); }
+
+.stats-firstonly { color: rgb(153, 153, 204); }
+
+.stats-both { color: rgb(255, 255, 102); }
+
+.leaderboard-daylinks { cursor: default; }
+
+.leaderboard-daylinks-selected { color: rgb(255, 255, 255); text-shadow: rg=
+b(255, 255, 255) 0px 0px 5px; }
+
+.leaderboard-daydesc-first { color: rgb(153, 153, 204); }
+
+.leaderboard-daydesc-both { color: rgb(255, 255, 102); }
+
+.leaderboard-entry { white-space: pre; }
+
+.leaderboard-entry .leaderboard-totalscore { color: rgb(255, 255, 255); }
+
+.leaderboard-anon { opacity: 0.6; }
+
+.leaderboard-userphoto { display: inline-block; height: 20px; width: 20px; =
+margin: 0px 0.5em; text-align: center; }
+
+.leaderboard-userphoto img { height: 20px; max-width: 20px; vertical-align:=
+ middle; position: relative; top: -2px; }
+
+.leaderboard-time { opacity: 0.5; }
+
+.privboard-row { white-space: pre; }
+
+.privboard-name { vertical-align: text-bottom; }
+
+.privboard-days > span { display: inline-block; color: rgb(51, 51, 51); }
+
+.privboard-days > a { display: inline-block; }
+
+.privboard-star-locked { visibility: hidden; }
+
+.privboard-star-unlocked { color: rgb(51, 51, 51); }
+
+.privboard-star-firstonly { color: rgb(153, 153, 204); }
+
+.privboard-star-both { color: rgb(255, 255, 102); }
+
+.privboard-delbtn { opacity: 0.33; }
+
+.privboard-row:hover .privboard-delbtn { opacity: 1; }
+
+.sponsors { width: 46em; }
+
+.sponsor { margin: 1em 0px; }
+------MultipartBoundary--BCDiwk8d2UHiAFwDslsqDJBoDEt8nkXThDaMjgNMAt----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300
+
+@charset "utf-8";
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMRrTEUc.woff2") format("woff2"); unicode-=
+range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2=
+F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtM1rTEUc.woff2") format("woff2"); unicode-=
+range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMVrTEUc.woff2") format("woff2"); unicode-=
+range: U+1F00-1FFF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMprTEUc.woff2") format("woff2"); unicode-=
+range: U+370-3FF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMZrTEUc.woff2") format("woff2"); unicode-=
+range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+=
+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMdrTEUc.woff2") format("woff2"); unicode-=
+range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+=
+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 300; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILx=
+Rpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQtMlrTA.woff2") format("woff2"); unicode-ra=
+nge: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308=
+, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+221=
+5, U+FEFF, U+FFFD; }
+------MultipartBoundary--BCDiwk8d2UHiAFwDslsqDJBoDEt8nkXThDaMjgNMAt----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://adventofcode.com/static/highcontrast.css?1
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=3DSource+Code+Pro:wgh=
+t@400;900");
+
+* { background: transparent !important; color: black !important; text-shado=
+w: none !important; }
+
+body { background: white !important; font-weight: 400 !important; }
+
+article [title] { border-bottom-color: black !important; }
+
+a { color: rgb(0, 0, 255) !important; text-decoration: underline !important=
+; }
+
+em { font-weight: 900 !important; }
+
+code::before { background: transparent !important; border-color: black !imp=
+ortant; }
+
+.stats-firstonly { opacity: 0.5; }
+
+.privboard-star-firstonly { opacity: 0.667; }
+
+.privboard-star-unlocked { opacity: 0.333; }
+------MultipartBoundary--BCDiwk8d2UHiAFwDslsqDJBoDEt8nkXThDaMjgNMAt----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900
+
+@charset "utf-8";
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMOvWjMY.woff2") format("woff2"); unicode-range: U+460-52F,=
+ U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlOevWjMY.woff2") format("woff2"); unicode-range: U+301, U+4=
+00-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMevWjMY.woff2") format("woff2"); unicode-range: U+1F00-1FF=
+F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlPuvWjMY.woff2") format("woff2"); unicode-range: U+370-3FF;=
+ }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMuvWjMY.woff2") format("woff2"); unicode-range: U+102-103,=
+ U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-30=
+4, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlM-vWjMY.woff2") format("woff2"); unicode-range: U+100-2AF,=
+ U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlPevW.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMOvWjMY.woff2") format("woff2"); unicode-range: U+460-52F,=
+ U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlOevWjMY.woff2") format("woff2"); unicode-range: U+301, U+4=
+00-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMevWjMY.woff2") format("woff2"); unicode-range: U+1F00-1FF=
+F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlPuvWjMY.woff2") format("woff2"); unicode-range: U+370-3FF;=
+ }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlMuvWjMY.woff2") format("woff2"); unicode-range: U+102-103,=
+ U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-30=
+4, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlM-vWjMY.woff2") format("woff2"); unicode-range: U+100-2AF,=
+ U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weigh=
+t: 900; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_SiYsKILx=
+Rpg3hIP6sJ7fM7PqlPevW.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+------MultipartBoundary--BCDiwk8d2UHiAFwDslsqDJBoDEt8nkXThDaMjgNMAt------
