@@ -1,0 +1,26 @@
+Test input:
+112999
+911111
+
+Bad solution:
+1>2^>9
+9v>>v>
+
+Good solution:
+1>>999
+91v>>>
+
+--------
+Final costs in destination cell (5,1) shoul be:
+(-, 7, 24,-)
+
+They currently are:
+(-, 24, 24, -)
+
+--------
+Final costs in cell (4,1) shoul be:
+(-, 6, 23, *)
+
+
+They currently are:
+(-, 5, 23, *)

@@ -13,6 +13,14 @@
 # Close to working, but I get a non-optimal path with a cost of 105 for the test input,
 # instead of the optimal one with a cost of 102.
 
+# After some debugging with custom test input 2 (see debugging_notes.txt)
+# I have reached the following conclusion: algorithm is too greedy.
+# Once it finds a path of cost 5, coming to cell (4,1) from the left (then forcing a step up),
+# for total cost of 24), it will never be replaced by the alternative that costs 6
+# even if that would later allow a considerably less costly last step right to reach
+# the end (total cost 7).
+# Giving it up for now, as it seems that it would need a considerable rethink to make it work.
+
 import math
 
 
@@ -85,7 +93,8 @@ def adjCells(cell, xmax, ymax):
 	
 
 def main():
-	input = open("aoc2023_day17_testinput.txt", "r")
+	#input = open("aoc2023_day17_testinput.txt", "r")
+	input = open("aoc2023_day17_testinput2.txt", "r")
 	#input = open("aoc2023_day17_input.txt", "r")
 	total = 0
 
@@ -126,13 +135,13 @@ def main():
 	while len(queue) > 0:
 	#for i in range(10): # TEST limited steps
 		#print('====')
-		#print('Queue: %s' % queue)
+		print('Queue: %s' % queue)
 		index = minCost(queue, tCostsGrid)
 		pos = queue.pop(index)
 		x = pos[0]
 		y = pos[1]
 		inmove = pos[2]
-		#print('pos: (%d,%d,%d)' % (x,y,inmove))
+		print('pos: (%d,%d,%d)' % (x,y,inmove))
 
 		adjacents =  adjCells(pos, xmax, ymax)
 		
@@ -169,15 +178,16 @@ def main():
 						tCostsGrid[ay][ax][move] = cost
 						prevMovesGrid[ay][ax][move] = prevMoves + [move]
 						queue.append(cell)
+						print('Added to queue: ' + str(cell))
 		
-		#drawGrid(tCostsGrid)
+		drawGrid(tCostsGrid)
 			
 	#drawGrid(tCostsGrid)
 	#drawGrid(seenGrid)
 	#drawGrid(parentsGrid)
 	#drawGrid(prevMovesGrid)
 	#print(queue)
-	
+	'''
 	# Extract shortest path:
 	x = xmax
 	y = ymax
@@ -193,10 +203,10 @@ def main():
 	print('Lowest cost: %d' % min_cost)
 	#print('Best last move: %d' % last_move)
 	print('Best moves: %s' % prevMoves)
-	print('Path on grid:') 
+	print('Chosen path:')
 	drawPath(prevMoves, cCostsGrid)
 	
 	#print('Best moves: %s' % prevMovesGrid[ymax][xmax])
-	
+	'''
 main()
 # Result: 870 is too high
