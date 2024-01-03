@@ -20,6 +20,11 @@
 # even if that would later allow a considerably less costly last step right to reach
 # the end (total cost 7).
 # Giving it up for now, as it seems that it would need a considerable rethink to make it work.
+#
+# Idea to try for solution: Build graph differently. Each node of the graph should be a state,
+# not just of the cell position, but also including the last two moves to reach it (if they cause
+# restriction on the next possible move. And maybe graph nodes should not just be connected to
+# adjacent cells but to the cells they can reach in the next 2/ 3 moves.
 
 import math
 
